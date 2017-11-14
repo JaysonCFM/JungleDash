@@ -6,6 +6,8 @@ public class PauseMenu : MonoBehaviour {
 
     public Transform canvas;
 
+    public bool isPaused;
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -19,13 +21,23 @@ public class PauseMenu : MonoBehaviour {
         if (canvas.gameObject.activeInHierarchy == false)
         {
             canvas.gameObject.SetActive(true);
-            Time.timeScale = 0;
+            isPaused = true;
             AudioListener.volume = 0;
         } else
         {
             canvas.gameObject.SetActive(false);
-            Time.timeScale = 1;
+            isPaused = false;
             AudioListener.volume = 1;
+        }
+
+        if (isPaused)
+        {
+            Time.timeScale = 0;
+        }
+
+        if (!isPaused)
+        {
+            Time.timeScale = 1;
         }
     }
 }

@@ -1,15 +1,20 @@
 fileFormatVersion: 2
-guid: 9b2a365356ab37e4b99d9ca3352737d3
-timeCreated: 1510695212
+guid: 2aa6b5905f6710b479cce53ec259d0e8
+timeCreated: 1510694754
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tile_jungle_bridge_0
-    21300002: tile_jungle_bridge_1
-    21300004: tile_jungle_bridge_2
-    21300006: tile_jungle_bridge_3
-    21300008: tile_jungle_bridge_4
-    21300010: tile_jungle_bridge_5
+    21300000: commie monkey enemy_0
+    21300002: commie monkey enemy_1
+    21300004: commie monkey enemy_2
+    21300006: commie monkey enemy_3
+    21300008: commie monkey enemy_4
+    21300010: commie monkey enemy_5
+    21300012: commie monkey enemy_6
+    21300014: commie monkey enemy_7
+    21300016: commie monkey enemy_8
+    21300018: commie monkey enemy_9
+    21300020: commie monkey enemy_10
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -52,7 +57,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -84,83 +89,153 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tile_jungle_bridge_1
+      name: commie monkey enemy_0
       rect:
         serializedVersion: 2
-        x: 243
-        y: 59
-        width: 51
-        height: 5
+        x: 74
+        y: 1142
+        width: 388
+        height: 301
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_bridge_2
+      name: commie monkey enemy_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 81
-        height: 49
+        x: 586
+        y: 1124
+        width: 379
+        height: 311
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_bridge_3
+      name: commie monkey enemy_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1119
+        width: 372
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_3
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1154
+        width: 366
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_4
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 1124
+        width: 339
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 579
+        width: 339
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_6
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 617
+        width: 339
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_7
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 583
+        width: 215
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_8
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 587
+        width: 381
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_9
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 602
+        width: 341
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: commie monkey enemy_10
       rect:
         serializedVersion: 2
         x: 81
-        y: 24
-        width: 47
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tile_jungle_bridge_0
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 23
-        width: 60
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tile_jungle_bridge_4
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 60
-        width: 40
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tile_jungle_bridge_5
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 55
-        width: 46
-        height: 5
+        y: 96
+        width: 340
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
