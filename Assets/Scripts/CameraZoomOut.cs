@@ -23,27 +23,35 @@ public class CameraZoomOut : MonoBehaviour {
     //Animates a zoom out animation until the camera is zoomed out
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (mainCamera.orthographicSize < 10)
+        if (collision.gameObject.GetComponent<Player>())
         {
-            mainCamera.orthographicSize+=0.25f;
-        }
+            if (mainCamera.orthographicSize < 10)
+            {
+                mainCamera.orthographicSize += 0.25f;
+            }
 
-        IsInBox = true;
-        
+            IsInBox = true;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (mainCamera.orthographicSize < 10)
+        if (collision.gameObject.GetComponent<Player>())
         {
-            mainCamera.orthographicSize+=0.25f;
-        }
+            if (mainCamera.orthographicSize < 10)
+            {
+                mainCamera.orthographicSize += 0.25f;
+            }
 
-        IsInBox = true;
+            IsInBox = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        IsInBox = false;
+        if (collision.gameObject.GetComponent<Player>())
+        {
+            IsInBox = false;
+        }
     }
 }
