@@ -8,5 +8,6 @@ public class LoseCollider : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerPrefsManager.SetHealth(0);
+        PlayerPrefsManager.UnlockLevel(1);
     }
 }

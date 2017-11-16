@@ -60,14 +60,14 @@ public class Player : MonoBehaviour
             Movement(horizontalInput);
 
             //When it is a map character, the character will be able to move up on the map
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.up * Time.deltaTime * moveSpeed;
             }
 
             //When it is a map character, the character will be able to move down on the map
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.down * Time.deltaTime * moveSpeed;
@@ -99,13 +99,20 @@ public class Player : MonoBehaviour
             {
                 audioSource.Play();
             }
-
         }
 
         //No movement will make the player go into an idle animation.
         else
         {
             animator.SetBool("IsWalking", false);
+        }
+
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            moveSpeed = 8;
+        } else
+        {
+            moveSpeed = 5;
         }
     }
 
