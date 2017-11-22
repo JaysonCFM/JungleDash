@@ -612,31 +612,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114785994227008244, guid: e298b6f782fd6e94b84db22fc0888d18,
-        type: 2}
-      propertyPath: currentHealth
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 60443673880826078, guid: e298b6f782fd6e94b84db22fc0888d18,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 60443673880826078, guid: e298b6f782fd6e94b84db22fc0888d18,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].y
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 60443673880826078, guid: e298b6f782fd6e94b84db22fc0888d18,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[13].x
-      value: 0.29999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 60443673880826078, guid: e298b6f782fd6e94b84db22fc0888d18,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[13].y
-      value: 0.57
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e298b6f782fd6e94b84db22fc0888d18, type: 2}
   m_IsPrefabParent: 0

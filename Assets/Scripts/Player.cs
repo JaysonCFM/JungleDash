@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private Animator animator;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
-    private bool grounded;
+    private bool grounded, jumping;
     private AudioSource audioSource;
     private LevelManager levelManager;
     private int currentHealth;
@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public float jumpPower;
     public float moveSpeed;
     public bool IsMapCharacter;
+    public int sprintSpeed = 8;
 
     // Use this for initialization
     void Start()
@@ -50,6 +51,7 @@ public class Player : MonoBehaviour
             if (verticalInput >= 1 && grounded)
             {
                 grounded = false;
+                jumping = true;
                 rb.AddForce(Vector2.up * jumpPower);
             }
         }
@@ -57,6 +59,7 @@ public class Player : MonoBehaviour
         //Used only for the character on the map, instead of creating a seperate class.
         if (IsMapCharacter)
         {
+            BindMapPlayer();
             Movement(horizontalInput);
 
             //When it is a map character, the character will be able to move up on the map
@@ -80,7 +83,13 @@ public class Player : MonoBehaviour
         //When the key to move right is pressed, the player will move right
         if (horizontalInput >= 1f)
         {
-            animator.SetBool("IsWalking", true);
+            if (!jumping)
+            {
+                animator.SetBool("IsWalking", true);
+            } else
+            {
+                animator.SetBool("IsWalking", false);
+            }
             transform.position += Vector3.right * Time.deltaTime * moveSpeed;
             sr.flipX = false;
             if (audioSource.isPlaying == false && grounded)
@@ -92,7 +101,14 @@ public class Player : MonoBehaviour
         //When the key to move left is pressed, the player will move left
         else if (horizontalInput <= -1f)
         {
-            animator.SetBool("IsWalking", true);
+            if (!jumping)
+            {
+                animator.SetBool("IsWalking", true);
+            }
+            else
+            {
+                animator.SetBool("IsWalking", false);
+            }
             transform.position += Vector3.left * Time.deltaTime * moveSpeed;
             sr.flipX = true;
             if (audioSource.isPlaying == false && grounded)
@@ -109,7 +125,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            moveSpeed = 8;
+            moveSpeed = sprintSpeed;
         } else
         {
             moveSpeed = 5;
@@ -122,6 +138,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Blocks"))
         {
             grounded = true;
+            jumping = false;
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
@@ -129,6 +146,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Blocks"))
         {
             grounded = true;
+            jumping = false;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -137,5 +155,19 @@ public class Player : MonoBehaviour
         {
             grounded = false;
         }
+    }
+
+    private void BindMapPlayer()
+    {
+        int minX = -44;
+        int maxX = -27;
+
+        int minY = -3;
+        int maxY = 3;
+
+        float newX = Mathf.Clamp(transform.position.x, minX, maxX);
+        float newY = Mathf.Clamp(transform.position.y, minY, maxY);
+
+        transform.position = new Vector3(newX, newY, transform.position.z);
     }
 }
