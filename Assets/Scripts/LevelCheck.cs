@@ -11,6 +11,8 @@ public class LevelCheck : MonoBehaviour {
     public string LevelName;
     public int LevelNumber;
 
+    private bool IsOverLevel;
+
 	// Use this for initialization
 	void Start () {
         levelManager = FindObjectOfType<LevelManager>();
@@ -34,19 +36,28 @@ public class LevelCheck : MonoBehaviour {
         }
     }
 
+    private void Update()
+    {
+        if (IsOverLevel)
+        {
+            LevelAppear();
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        LevelAppear();
+        IsOverLevel = true;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        LevelAppear();
+        IsOverLevel = true;
     }
 
     //When the player goes away from the level, the text resets.
     private void OnTriggerExit2D(Collider2D collision)
     {
+        IsOverLevel = false;
         text.text = "";
     }
 

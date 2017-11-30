@@ -122,7 +122,7 @@ Prefab:
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.size
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4901984512673978, guid: 63ae7edebe314e04eba888ac1900e2a8, type: 2}
       propertyPath: m_LocalPosition.x
@@ -175,12 +175,12 @@ Prefab:
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[5]
       value: 
-      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+      objectReference: {fileID: 8300000, guid: eeb2177512035b743b11d24b288708d7, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[6]
       value: 
-      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+      objectReference: {fileID: 8300000, guid: 94dc1c3a251af15448f60406c42825bb, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[7]
@@ -189,6 +189,26 @@ Prefab:
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+    - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
+        type: 2}
+      propertyPath: levelMusicChangeArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 82585192007702924, guid: 63ae7edebe314e04eba888ac1900e2a8,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c788ca0ae48a97a45ac6c61dc5be5afc, type: 3}
+    - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
+        type: 2}
+      propertyPath: levelMusicChangeArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+    - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
+        type: 2}
+      propertyPath: levelMusicChangeArray.Array.data[10]
       value: 
       objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
     m_RemovedComponents: []

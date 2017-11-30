@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private AudioSource audioSource;
     private LevelManager levelManager;
     private int currentHealth;
+    private Inventory inventory;
 
     public float jumpPower;
     public float moveSpeed;
@@ -27,6 +28,12 @@ public class Player : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         currentHealth = PlayerPrefsManager.GetHealth();
         levelManager = FindObjectOfType<LevelManager>();
+
+        if (ExitShop.HasEnteredShopBefore == true)
+        {
+            transform.position = LoadShop.LocationToRespawn;
+            ExitShop.HasEnteredShopBefore = false;
+        }
     }
 
     // Update is called once per frame

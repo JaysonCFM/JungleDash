@@ -1,0 +1,1735 @@
+fileFormatVersion: 2
+guid: 7d31d8b166c1042ccb69a644a749fe53
+timeCreated: 1512055713
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_0
+    21300002: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_1
+    21300004: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_2
+    21300006: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_3
+    21300008: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_4
+    21300010: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_5
+    21300012: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_6
+    21300014: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_7
+    21300016: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_8
+    21300018: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_9
+    21300020: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_10
+    21300022: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_11
+    21300024: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_12
+    21300026: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_13
+    21300028: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_14
+    21300030: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_15
+    21300032: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_16
+    21300034: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_17
+    21300036: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_18
+    21300038: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_19
+    21300040: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_20
+    21300042: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_21
+    21300044: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_22
+    21300046: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_23
+    21300048: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_24
+    21300050: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_25
+    21300052: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_26
+    21300054: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_27
+    21300056: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_28
+    21300058: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_29
+    21300060: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_30
+    21300062: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_31
+    21300064: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_32
+    21300066: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_33
+    21300068: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_34
+    21300070: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_35
+    21300072: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_36
+    21300074: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_37
+    21300076: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_38
+    21300078: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_39
+    21300080: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_40
+    21300082: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_41
+    21300084: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_42
+    21300086: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_43
+    21300088: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_44
+    21300090: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_45
+    21300092: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_46
+    21300094: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_47
+    21300096: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_48
+    21300098: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_49
+    21300100: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_50
+    21300102: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_51
+    21300104: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_52
+    21300106: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_53
+    21300108: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_54
+    21300110: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_55
+    21300112: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_56
+    21300114: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_57
+    21300116: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_58
+    21300118: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_59
+    21300120: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_60
+    21300122: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_61
+    21300124: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_62
+    21300126: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_63
+    21300128: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_64
+    21300130: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_65
+    21300132: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_66
+    21300134: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_67
+    21300136: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_68
+    21300138: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_69
+    21300140: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_70
+    21300142: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_71
+    21300144: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_72
+    21300146: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_73
+    21300148: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_74
+    21300150: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_75
+    21300152: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_76
+    21300154: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_77
+    21300156: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_78
+    21300158: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_79
+    21300160: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_80
+    21300162: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_81
+    21300164: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_82
+    21300166: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_83
+    21300168: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_84
+    21300170: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_85
+    21300172: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_86
+    21300174: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_87
+    21300176: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_88
+    21300178: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_89
+    21300180: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_90
+    21300182: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_91
+    21300184: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_92
+    21300186: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_93
+    21300188: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_94
+    21300190: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_95
+    21300192: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_96
+    21300194: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_97
+    21300196: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_98
+    21300198: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_99
+    21300200: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_100
+    21300202: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_101
+    21300204: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_102
+    21300206: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_103
+    21300208: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_104
+    21300210: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_105
+    21300212: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_106
+    21300214: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_107
+    21300216: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_108
+    21300218: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_109
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 342
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 343
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 285
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 284
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 285
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 284
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 252
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 248
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 231
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 231
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 231
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 231
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 246
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 248
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_21
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 175
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 175
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 175
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 175
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 121
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 122
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 121
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 121
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 121
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 49
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_32
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 52
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 58
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_34
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 73
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 89
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 77
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 95
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 77
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 58
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 30
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 30
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 30
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_46
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_47
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_48
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 30
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_49
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 30
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_50
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 30
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 30
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_54
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 30
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_55
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_56
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 30
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 30
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_58
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 27
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_60
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 27
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_61
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_62
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 29
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_63
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 27
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_64
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 29
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_65
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_66
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_67
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 29
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_68
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_69
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 29
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_70
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 29
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_71
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 29
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 16
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_73
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_74
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_76
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_77
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_78
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_82
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 16
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_83
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 16
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_84
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_85
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 14
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_86
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 16
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_87
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_88
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 14
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_89
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 16
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_90
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 16
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_91
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_92
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_94
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_96
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 15
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 15
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_99
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 15
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_100
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_101
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_102
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_103
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 15
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_104
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_105
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_106
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 15
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_108
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 13
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Zombies Ate My Neighbors - Vlad Belmont the Vampire_109
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 82
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
