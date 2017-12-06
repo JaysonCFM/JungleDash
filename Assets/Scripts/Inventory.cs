@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour {
 
-    public static bool Item1, Item2, Item3, Item4, Item5, Item6, Item7, Item8, Item9, Item10, Item11, Item12;
+    //Uses an array to determine which item is available, based off of the boolean currently set.
+    public static bool[] Items = new bool[12];
 
 	// Use this for initialization
 	void Start () {
@@ -13,6 +14,13 @@ public class Inventory : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetMouseButtonDown(1))
+        {
+            //TODO: Inventory needs to be used, this just uses all items.
+            for (int i = 0; i < Items.Length; i++)
+            {
+                Items[i] = false;
+            }
+        }
 	}
 }

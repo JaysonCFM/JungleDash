@@ -1,18 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuyingSystem : MonoBehaviour {
-
+    //edge statement that makes it so the player has to be on the item to buy it
     private bool IsOverItem;
+    //allows use to change the cost per item so each item can cost differently 
+    public int Cost;
+    //allows them to only buy one item per visit
+    public int itemCounter;
 
-    public int Cost, itemCounter;
+    public string ItemDescription;
 
+    public Text text;
    
     
     private void Update()
     {
-        
+        //allows the item to be bought if they are over the item
         if (IsOverItem)
         {
             BuyItem();
@@ -35,10 +41,12 @@ public class BuyingSystem : MonoBehaviour {
     //allows you to buy from when only on the platform
     {
         IsOverItem = false;
+        text.text = "";
     }
 
     private void BuyItem()
     {
+        text.text = ItemDescription;
         //when you press Spacebar it buys the item but it withdraws from your health
         if (Input.GetKeyDown(KeyCode.Space) && itemCounter == 0)
         {

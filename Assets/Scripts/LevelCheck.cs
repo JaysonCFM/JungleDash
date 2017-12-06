@@ -22,8 +22,7 @@ public class LevelCheck : MonoBehaviour {
         if (PlayerPrefsManager.GetUnlockedLevel() == 0)
         {
             PlayerPrefsManager.SetHealth(100);
-            //REMOVE THIS AND MAKE TUTORIAL LATER.
-            levelManager.LoadLevel("Jayson's Testing Scene");
+            levelManager.LoadLevel("TutorialScreen");
         }
 
         if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)

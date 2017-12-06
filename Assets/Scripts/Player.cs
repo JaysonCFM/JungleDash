@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
         {
             if (currentHealth <= 0)
             {
+                PlayerPrefsManager.UnlockLevel(1);
                 levelManager.LoadLevel("Game Over Screen");
             }
 

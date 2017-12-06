@@ -9,6 +9,14 @@ public class Enemy : MonoBehaviour {
 
     public int Health;
 
+    private void Update()
+    {
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         HurtPlayer(collision);
