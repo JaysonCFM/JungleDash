@@ -7018,6 +7018,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9b7d10cf17b85a40855928a828285f2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &505704154 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1433289721563958, guid: 8b899cc6e79370342b61b1a85822a5c6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1608737693}
+--- !u!114 &505704155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505704154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c34c3e17ce53041858852ed85ffb76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponName: Stick
+  IsArcheologist: 1
 --- !u!1 &508680571
 GameObject:
   m_ObjectHideFlags: 0
@@ -13363,6 +13381,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &939336280 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1099096228051650, guid: 5c5fff38d8ff63a44b2cab32bb609caa,
+    type: 2}
+  m_PrefabInternal: {fileID: 341676816}
+--- !u!114 &939336281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 939336280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c34c3e17ce53041858852ed85ffb76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponName: Stick
+  IsArcheologist: 1
 --- !u!1 &939626698
 GameObject:
   m_ObjectHideFlags: 0
@@ -15933,19 +15969,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponName: Stick
   IsArcheologist: 1
---- !u!114 &1075145572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1075145570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f42a9643968ee48468c11808de358621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textString: Here take a stick from my bonfire as defense.
-  text: {fileID: 418216408}
 --- !u!1 &1075904063
 GameObject:
   m_ObjectHideFlags: 0
@@ -24901,6 +24924,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1687881377 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1433289721563958, guid: 8b899cc6e79370342b61b1a85822a5c6,
+    type: 2}
+  m_PrefabInternal: {fileID: 390665087}
+--- !u!114 &1687881378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687881377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c34c3e17ce53041858852ed85ffb76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponName: Stick
+  IsArcheologist: 1
 --- !u!1 &1693715055
 GameObject:
   m_ObjectHideFlags: 0
@@ -25057,6 +25098,8 @@ GameObject:
   - component: {fileID: 1700880607}
   - component: {fileID: 1700880606}
   - component: {fileID: 1700880605}
+  - component: {fileID: 1700880609}
+  - component: {fileID: 1700880608}
   m_Layer: 0
   m_Name: Archeologist Idle_0
   m_TagString: Untagged
@@ -25138,6 +25181,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1700880608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700880604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a9643968ee48468c11808de358621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textString: Here take a stick from my bonfire as defense.
+  text: {fileID: 418216408}
+--- !u!114 &1700880609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1700880604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c34c3e17ce53041858852ed85ffb76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponName: Stick
+  IsArcheologist: 1
 --- !u!1 &1702505701
 GameObject:
   m_ObjectHideFlags: 0

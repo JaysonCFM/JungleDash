@@ -8,7 +8,7 @@ public class Weapon : MonoBehaviour
     private Player player;
     private Animator animator;
     public static bool[] Weapons = new bool[5];
-    public GameObject Stick, Stick2, Weapon3, Gun;
+    public GameObject Stick, Stick2, Weapon3, Gun, NoWeapon;
     public int DamageToTake;
 
     private bool IsArmed;
@@ -38,6 +38,7 @@ public class Weapon : MonoBehaviour
             Stick2.SetActive(false);
             //Weapon3.SetActive(false);
             //Gun.SetActive(false);
+            NoWeapon.SetActive(false);
         }
         else if (Weapons[1])
         {
@@ -45,6 +46,7 @@ public class Weapon : MonoBehaviour
             Stick2.SetActive(true);
             //Weapon3.SetActive(false);
             //Gun.SetActive(false);
+            NoWeapon.SetActive(false);
         }
         //else if (Weapons[2])
         //{
@@ -52,6 +54,7 @@ public class Weapon : MonoBehaviour
         //    Stick2.SetActive(false);
         //    //Weapon3.SetActive(true);
         //    //Gun.SetActive(false);
+        //    NoWeapon.SetActive(false);
         //}
         //else if (Weapons[3])
         //{
@@ -59,6 +62,7 @@ public class Weapon : MonoBehaviour
         //    Stick2.SetActive(false);
         //    //Weapon3.SetActive(false);
         //    //Gun.SetActive(true);
+              //NoWeapon.SetActive(false);
         //}
         else if (Weapons[4])
         {
@@ -66,6 +70,7 @@ public class Weapon : MonoBehaviour
             Stick2.SetActive(false);
             //Weapon3.SetActive(false);
             //Gun.SetActive(false);
+            NoWeapon.SetActive(true);
         }
     }
 
