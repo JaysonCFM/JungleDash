@@ -6,10 +6,9 @@ public class Weapon : MonoBehaviour
 {
 
     private Player player;
-    private SpriteRenderer sr;
     private Animator animator;
-    public static bool[] Weapons = new bool[4];
-    public GameObject Stick, Weapon2, Weapon3, Gun;
+    public static bool[] Weapons = new bool[5];
+    public GameObject Stick, Stick2, Weapon3, Gun;
     public int DamageToTake;
 
     private bool IsArmed;
@@ -19,21 +18,7 @@ public class Weapon : MonoBehaviour
     {
         player = FindObjectOfType<Player>();
         animator = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-
-        int allWeapons = 0;
-        for (int i = 0; i < Weapons.Length; i++)
-        {
-            if (Weapons[i] == false)
-            {
-                allWeapons++;
-            }
-        }
-
-        if (allWeapons >= 4)
-        {
-            SetWeapon(0);
-        }
+        SelectedWeapon();
     }
 
     // Update is called once per frame
@@ -44,19 +29,91 @@ public class Weapon : MonoBehaviour
             Attack();
         }
 
+        SelectedWeapon();
+
         //TODO: Add more weapons later
         if (Weapons[0])
         {
             Stick.SetActive(true);
-            //Weapon2.SetActive(false);
+            Stick2.SetActive(false);
+            //Weapon3.SetActive(false);
+            //Gun.SetActive(false);
+        }
+        else if (Weapons[1])
+        {
+            Stick.SetActive(false);
+            Stick2.SetActive(true);
+            //Weapon3.SetActive(false);
+            //Gun.SetActive(false);
+        }
+        //else if (Weapons[2])
+        //{
+        //    Stick.SetActive(false);
+        //    Stick2.SetActive(false);
+        //    //Weapon3.SetActive(true);
+        //    //Gun.SetActive(false);
+        //}
+        //else if (Weapons[3])
+        //{
+        //    Stick.SetActive(false);
+        //    Stick2.SetActive(false);
+        //    //Weapon3.SetActive(false);
+        //    //Gun.SetActive(true);
+        //}
+        else if (Weapons[4])
+        {
+            Stick.SetActive(false);
+            Stick2.SetActive(false);
             //Weapon3.SetActive(false);
             //Gun.SetActive(false);
         }
     }
 
+    private static void SelectedWeapon()
+    {
+        if (PlayerPrefsManager.GetWeapon() == "Stick")
+        {
+            Weapons[0] = true;
+            Weapons[1] = false;
+            Weapons[2] = false;
+            Weapons[3] = false;
+        }
+        else if (PlayerPrefsManager.GetWeapon() == "Stick 2")
+        {
+            Weapons[0] = false;
+            Weapons[1] = true;
+            Weapons[2] = false;
+            Weapons[3] = false;
+        }
+        //TODO: CHANGE TO WEAPON 3
+        //else if (PlayerPrefsManager.GetWeapon() == "Weapon 3")
+        //{
+        //    Weapons[0] = false;
+        //    Weapons[1] = false;
+        //    Weapons[2] = true;
+        //    Weapons[3] = false;
+        //}
+        //else if (PlayerPrefsManager.GetWeapon() == "Gun")
+        //{
+        //    Weapons[0] = false;
+        //    Weapons[1] = false;
+        //    Weapons[2] = false;
+        //    Weapons[3] = true;
+        //}
+        else if (PlayerPrefsManager.GetWeapon() == "No Weapon")
+        {
+            Weapons[0] = false;
+            Weapons[1] = false;
+            Weapons[2] = false;
+            Weapons[3] = false;
+            Weapons[4] = true;
+        }
+    }
+
     private void Attack()
     {
-        if (Weapons[0])
+        //Specific attacks for each weapon, this is for the stick.
+        if (Weapons[0] || Weapons[1])
         {
             if (player.GetComponent<SpriteRenderer>().flipX)
             {
@@ -69,16 +126,7 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    public static void SetWeapon(int WeaponToSet)
-    {
-        for (int i = 0; i < Weapons.Length; i++)
-        {
-            Weapons[i] = false;
-        }
-
-        Weapons[WeaponToSet] = true;
-    }
-
+    //Sets boolean for the animations
     private void Armed()
     {
         IsArmed = true;
@@ -99,6 +147,7 @@ public class Weapon : MonoBehaviour
         EnemyHurt(collision);
     }
 
+    //Takes damage to enemy
     private void EnemyHurt(Collider2D collision)
     {
         GameObject Collision = collision.gameObject;

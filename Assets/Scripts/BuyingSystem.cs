@@ -9,7 +9,10 @@ public class BuyingSystem : MonoBehaviour {
     //allows use to change the cost per item so each item can cost differently 
     public int Cost;
     //allows them to only buy one item per visit
-    public int itemCounter;
+    private int itemCounter;
+
+    //Chooses spot in array for the item.
+    public int SpotInArray;
 
     public string ItemDescription;
 
@@ -51,6 +54,7 @@ public class BuyingSystem : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) && itemCounter == 0)
         {
             PlayerPrefsManager.DealDamage(Cost);
+            Inventory.SetItem(SpotInArray);
             itemCounter++;
 
         }

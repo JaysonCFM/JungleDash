@@ -138,6 +138,12 @@ public class Player : MonoBehaviour
         {
             moveSpeed = 5;
         }
+
+        //Suicide key
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            PlayerPrefsManager.SetHealth(0);
+        }
     }
 
     //Booleans to make sure the player is grounded and can't double jump.

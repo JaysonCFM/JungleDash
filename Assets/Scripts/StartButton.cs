@@ -19,7 +19,7 @@ public class StartButton : MonoBehaviour {
         if (PlayerPrefsManager.GetHealth() <= 0)
         {
             PlayerPrefsManager.SetHealth(100);
-            Weapon.SetWeapon(0);
+            PlayerPrefsManager.SetWeapon("No Weapon");
             levelManager.LoadLevel(LevelToLoad);
         } else
         {

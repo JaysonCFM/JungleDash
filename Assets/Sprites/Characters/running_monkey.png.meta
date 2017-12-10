@@ -1,20 +1,19 @@
 fileFormatVersion: 2
-guid: d40e200a75ca4a943bc2ee1a2c57831b
-timeCreated: 1512578906
+guid: c5c03f45b49e11b46991645f6024230a
+timeCreated: 1512661134
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tile_jungle_wall_grey_0
-    21300002: tile_jungle_wall_grey_1
-    21300004: tile_jungle_wall_grey_2
-    21300006: tile_jungle_wall_grey_3
-    21300008: tile_jungle_wall_grey_4
-    21300010: tile_jungle_wall_grey_5
-    21300012: tile_jungle_wall_grey_6
-    21300014: tile_jungle_wall_grey_7
-    21300016: tile_jungle_wall_grey_8
-    21300018: tile_jungle_wall_grey_9
-    21300020: tile_jungle_wall_grey_10
+    21300000: running_monkey_0
+    21300002: running_monkey_1
+    21300004: running_monkey_2
+    21300006: running_monkey_3
+    21300008: running_monkey_4
+    21300010: running_monkey_5
+    21300012: running_monkey_6
+    21300014: running_monkey_7
+    21300016: running_monkey_8
+    21300018: running_monkey_9
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -57,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -89,153 +88,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_0
+      name: running_monkey_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 132
-        width: 31
-        height: 252
+        x: 46
+        y: 612
+        width: 386
+        height: 301
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 30, y: 1, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tile_jungle_wall_grey_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_2
+      name: running_monkey_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 32
+        x: 565
+        y: 614
+        width: 387
+        height: 286
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_3
+      name: running_monkey_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 32
+        x: 1091
+        y: 618
+        width: 386
+        height: 287
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_4
+      name: running_monkey_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 1597
+        y: 615
+        width: 374
+        height: 292
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_5
+      name: running_monkey_4
       rect:
         serializedVersion: 2
-        x: 65
-        y: 352
-        width: 30
-        height: 32
+        x: 2114
+        y: 616
+        width: 348
+        height: 317
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_6
+      name: running_monkey_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 320
-        width: 32
-        height: 32
+        x: 68
+        y: 79
+        width: 314
+        height: 341
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_7
+      name: running_monkey_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 32
-        height: 32
+        x: 589
+        y: 99
+        width: 348
+        height: 321
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_8
+      name: running_monkey_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 288
-        width: 32
-        height: 32
+        x: 1093
+        y: 101
+        width: 374
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_9
+      name: running_monkey_8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
-        width: 32
-        height: 32
+        x: 1599
+        y: 111
+        width: 385
+        height: 284
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tile_jungle_wall_grey_10
+      name: running_monkey_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 133
-        width: 32
-        height: 251
+        x: 2109
+        y: 104
+        width: 388
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

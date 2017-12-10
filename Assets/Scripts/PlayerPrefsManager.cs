@@ -8,6 +8,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string LEVEL_KEY = "level_unlocked_";
     const string PLAYER_HEALTH = "player_health_";
     const string MASTER_VOLUME_KEY = "master_volume";
+    const string WEAPON_SELECTED = "weapon_selected";
 
     //Can be called from another script to unlock a level by passing in a number.
     public static void UnlockLevel(int level)
@@ -59,5 +60,15 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static float GetMasterVolume()
     {
         return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
+    }
+
+    public static void SetWeapon(string Weapon)
+    {
+        PlayerPrefs.SetString(WEAPON_SELECTED, Weapon);
+    }
+
+    public static string GetWeapon()
+    {
+        return PlayerPrefs.GetString(WEAPON_SELECTED);
     }
 }
