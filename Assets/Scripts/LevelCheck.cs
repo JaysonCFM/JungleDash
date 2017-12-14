@@ -24,11 +24,16 @@ public class LevelCheck : MonoBehaviour {
             PlayerPrefsManager.SetHealth(100);
             levelManager.LoadLevel("TutorialScreen");
         }
+        else if (PlayerPrefsManager.GetUnlockedLevel() == 26)
+        {
+            levelManager.LoadLevel("Win Screen");
+        }
 
         if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)
         {
             gameObject.SetActive(true);
         }
+
         else
         {
             gameObject.SetActive(false);

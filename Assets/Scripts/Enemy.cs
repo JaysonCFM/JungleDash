@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour {
 
     public int Health;
 
+    //Death of enemy
     private void Update()
     {
         if (Health <= 0)
@@ -22,6 +23,7 @@ public class Enemy : MonoBehaviour {
         HurtPlayer(collision);
     }
 
+    //Takes player damage
     private void HurtPlayer(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<Player>())
@@ -30,6 +32,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
+    //Takes own damage
     public void TakeDamage(int DamageToTake)
     {
         Health -= DamageToTake;

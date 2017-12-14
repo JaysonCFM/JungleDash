@@ -16,8 +16,10 @@ public class Casino : MonoBehaviour {
         text.text = "";
         PlayerPrefsManager.DealDamage(5);
 
-        RandomNumber = Random.Range(1, 11);
+        //Unity uses Random.Range instead of Random.Next.
+        RandomNumber = Random.Range(1, 5);
 
+        //Gives player health or not.
         if (RandomNumber == CorrectBet)
         {
             if (PlayerPrefsManager.GetHealth() < 100)

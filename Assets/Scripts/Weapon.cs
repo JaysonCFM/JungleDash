@@ -32,6 +32,8 @@ public class Weapon : MonoBehaviour
         SelectedWeapon();
 
         //TODO: Add more weapons later
+
+        //Hides from player the other weapons depending on current weapon
         if (Weapons[0])
         {
             Stick.SetActive(true);
@@ -76,12 +78,14 @@ public class Weapon : MonoBehaviour
 
     private static void SelectedWeapon()
     {
+        //Talks to the PlayerPrefsManager class, and sets the weapon based off of it.
         if (PlayerPrefsManager.GetWeapon() == "Stick")
         {
             Weapons[0] = true;
             Weapons[1] = false;
             Weapons[2] = false;
             Weapons[3] = false;
+            Weapons[4] = false;
         }
         else if (PlayerPrefsManager.GetWeapon() == "Stick 2")
         {
@@ -89,6 +93,7 @@ public class Weapon : MonoBehaviour
             Weapons[1] = true;
             Weapons[2] = false;
             Weapons[3] = false;
+            Weapons[4] = false;
         }
         //TODO: CHANGE TO WEAPON 3
         //else if (PlayerPrefsManager.GetWeapon() == "Weapon 3")
@@ -97,6 +102,7 @@ public class Weapon : MonoBehaviour
         //    Weapons[1] = false;
         //    Weapons[2] = true;
         //    Weapons[3] = false;
+        //    Weapons[4] = false;
         //}
         //else if (PlayerPrefsManager.GetWeapon() == "Gun")
         //{
@@ -104,6 +110,7 @@ public class Weapon : MonoBehaviour
         //    Weapons[1] = false;
         //    Weapons[2] = false;
         //    Weapons[3] = true;
+        //    Weapons[4] = false;
         //}
         else if (PlayerPrefsManager.GetWeapon() == "No Weapon")
         {

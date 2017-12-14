@@ -32,6 +32,7 @@ public class OptionsController : MonoBehaviour {
     {
         //Deletes everything about the game, and all progress.
         PlayerPrefsManager.UnlockLevel(0);
+        PlayerPrefsManager.SetWeapon("No Weapon");
         PlayerPrefsManager.SetHealth(100);
         print("Game reset.");
     }

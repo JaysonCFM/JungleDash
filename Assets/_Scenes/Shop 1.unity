@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cost: 10
-  SpotInArray: 0
+  ItemName: Blood Cross
   ItemDescription: 'Blood Cross : 10'
   text: {fileID: 1189397208}
 --- !u!61 &821442844
@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cost: 99
-  SpotInArray: 0
+  ItemName: Demon's Special Brew
   ItemDescription: 'Demon''s Special Brew : 99'
   text: {fileID: 1189397208}
 --- !u!61 &1443247879
@@ -2137,7 +2137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cost: 5
-  SpotInArray: 0
+  ItemName: Torch
   ItemDescription: 'Torch : 5'
   text: {fileID: 1189397208}
 --- !u!61 &1694369776
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cost: 15
-  SpotInArray: 0
+  ItemName: Bomb
   ItemDescription: 'Bomb : 15'
   text: {fileID: 1189397208}
 --- !u!61 &2032085885

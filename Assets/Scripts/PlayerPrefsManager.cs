@@ -9,6 +9,9 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string PLAYER_HEALTH = "player_health_";
     const string MASTER_VOLUME_KEY = "master_volume";
     const string WEAPON_SELECTED = "weapon_selected";
+    const string INVENTORY_ITEM = "inventory_item";
+
+    public static bool IsIndestructible;
 
     //Can be called from another script to unlock a level by passing in a number.
     public static void UnlockLevel(int level)
@@ -26,7 +29,13 @@ public class PlayerPrefsManager : MonoBehaviour {
     //Health for the player, stored offline
     public static void DealDamage(int health)
     {
-        PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - health);
+        if (!IsIndestructible)
+        {
+            PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - health);
+        } else
+        {
+            PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - 0);
+        }
     }
 
     public static void AddHealth(int health)
@@ -36,6 +45,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     public static void SetHealth(int health)
     {
+        IsIndestructible = false;
         PlayerPrefs.SetInt(PLAYER_HEALTH, health);
     }
 
@@ -70,5 +80,15 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static string GetWeapon()
     {
         return PlayerPrefs.GetString(WEAPON_SELECTED);
+    }
+
+    public static void SetInventory(string Item)
+    {
+        PlayerPrefs.SetString(INVENTORY_ITEM, Item);
+    }
+
+    public static string GetInventory()
+    {
+        return PlayerPrefs.GetString(INVENTORY_ITEM);
     }
 }

@@ -8,6 +8,7 @@ public class TurnOffDarkness : MonoBehaviour {
 
     private bool TransitionToLight;
 
+    //Fade effect
     private void Update()
     {
         if (TransitionToLight)

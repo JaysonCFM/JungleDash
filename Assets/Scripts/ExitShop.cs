@@ -8,6 +8,7 @@ public class ExitShop : MonoBehaviour {
     public bool Level1, Level2, Level3, Level4, Level5, Level6;
     public static bool HasEnteredShopBefore;
 
+    //Allows player to exit shop and return to position in level
     private void OnTriggerEnter2D(Collider2D collision)
     {
         HasEnteredShopBefore = true;

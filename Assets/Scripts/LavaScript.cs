@@ -21,7 +21,7 @@ public class LavaScript : MonoBehaviour {
 	void Update () {
         //gets the irl time because unity allows it to have diversify framerate so it runs on different frame rate for different computers
         secondsCount += Time.deltaTime;
-        //when it hits 3 seconds it goes to the Startanimation 
+        //when it hits set seconds it goes to the Startanimation 
         if (secondsCount >= TimeToDisable)
         {
             StartAnimation();
