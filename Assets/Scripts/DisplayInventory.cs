@@ -8,6 +8,7 @@ public class DisplayInventory : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        //Decides which item in inventory to draw based on the item in the items array.
         if (Inventory.Items[0])
         {
             Torch.gameObject.SetActive(true);

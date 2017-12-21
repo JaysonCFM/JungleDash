@@ -49,6 +49,10 @@ public class Level2BossStart : MonoBehaviour
 
     private void Death()
     {
+        for (int i = 0; i < LeversActivate.Length; i++)
+        {
+            LeversActivate[i] = false;
+        }
         enemy.Health = 0;
     }
 }

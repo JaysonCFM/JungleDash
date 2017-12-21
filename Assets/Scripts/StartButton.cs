@@ -20,6 +20,7 @@ public class StartButton : MonoBehaviour {
         {
             PlayerPrefsManager.SetHealth(100);
             PlayerPrefsManager.SetWeapon("No Weapon");
+            PlayerPrefsManager.SetInventory("No Item");
             levelManager.LoadLevel(LevelToLoad);
         } else
         {
