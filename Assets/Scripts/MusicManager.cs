@@ -22,7 +22,14 @@ public class MusicManager : MonoBehaviour {
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefsManager.GetMasterVolume();
+
+        if (!PlayerPrefs.HasKey(PlayerPrefsManager.MASTER_VOLUME_KEY))
+        {
+            PlayerPrefsManager.SetMasterVolume(0.8f);
+        } else
+        {
+            audioSource.volume = PlayerPrefsManager.GetMasterVolume();
+        }
     }
 
     private void Awake()

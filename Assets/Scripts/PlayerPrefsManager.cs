@@ -7,7 +7,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     //Creates a key inside of the playerprefs (Storage for Unity).
     const string LEVEL_KEY = "level_unlocked_";
     const string PLAYER_HEALTH = "player_health_";
-    const string MASTER_VOLUME_KEY = "master_volume";
+    public const string MASTER_VOLUME_KEY = "master_volume";
     const string WEAPON_SELECTED = "weapon_selected";
     const string INVENTORY_ITEM = "inventory_item";
 
