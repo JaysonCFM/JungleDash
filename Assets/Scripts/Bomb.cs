@@ -36,7 +36,7 @@ public class Bomb : MonoBehaviour {
         enemy = collision.gameObject;
         if (enemy.GetComponent<Enemy>() && IsExploded)
         {
-            enemy.GetComponent<Enemy>().DamageToDeal = 5;
+            enemy.GetComponent<Enemy>().TakeDamage(5);
             IsExploded = false;
         }
         else if (enemy.GetComponent<Player>() && IsExploded)
@@ -51,7 +51,7 @@ public class Bomb : MonoBehaviour {
         enemy = collision.gameObject;
         if (enemy.GetComponent<Enemy>() && IsExploded)
         {
-            enemy.GetComponent<Enemy>().DamageToDeal = 5;
+            enemy.GetComponent<Enemy>().TakeDamage(5);
             IsExploded = false;
         }
         else if (enemy.GetComponent<Player>() && IsExploded)
