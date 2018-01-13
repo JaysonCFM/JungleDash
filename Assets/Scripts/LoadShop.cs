@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadShop : MonoBehaviour {
 
@@ -11,11 +12,13 @@ public class LoadShop : MonoBehaviour {
     public static Vector3 LocationToRespawn;
     private Player player;
 
+    public static string PreviousLevel;
+
 
     // Use this for initialization
     void Start()
     {
-        //this just automates the process of finding the level manager so you dont have to Manuel drag it in
+        //this just automates the process of finding the level manager so you dont have to manually drag it in
         levelManager = FindObjectOfType<LevelManager>();
         player = FindObjectOfType<Player>();
     }
@@ -64,6 +67,10 @@ public class LoadShop : MonoBehaviour {
             {
                 levelManager.LoadLevel("Shop 3");
             }
+
+        Scene ShopName = SceneManager.GetActiveScene();
+
+        PreviousLevel = ShopName.name;
 
         }
     }

@@ -27,11 +27,11 @@ public class PlayerPrefsManager : MonoBehaviour {
     }
 
     //Health for the player, stored offline
-    public static void DealDamage(int health)
+    public static void DealDamage(int damageGiven)
     {
         if (!IsIndestructible)
         {
-            PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - health);
+			PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
         } else
         {
             PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - 0);

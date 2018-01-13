@@ -30,8 +30,14 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level 2.unity
     guid: 756b491a882a70b4586effde040facf8
   - enabled: 1
+    path: Assets/_Scenes/Shop 2.unity
+    guid: e39b1459fa764d54295753d2a4dc9ae9
+  - enabled: 1
     path: Assets/_Scenes/Level 3.unity
     guid: 3b4729646636f1e43bdd7de07f36d8c2
+  - enabled: 1
+    path: Assets/_Scenes/Shop 3.unity
+    guid: c4293abc9e16ecc44b80b1ed836cbf0f
   - enabled: 1
     path: Assets/_Scenes/Casino.unity
     guid: 03c6a5dddcf1d884aa35a7941e3f10fa

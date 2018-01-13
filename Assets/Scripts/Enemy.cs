@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour {
     {
         if (collision.gameObject.GetComponent<Player>())
         {
-            PlayerPrefsManager.DealDamage(DamageToDeal);
+            collision.gameObject.GetComponent<Player>().TakeDamage(DamageToDeal);
         }
     }
 

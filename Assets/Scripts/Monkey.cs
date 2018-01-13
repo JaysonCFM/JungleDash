@@ -18,10 +18,8 @@ public class Monkey : MonoBehaviour {
     public void TrapPlayer()
     {
         BarrierOne.GetComponent<BoxCollider2D>().isTrigger = false;
-        BarrierTwo.GetComponent<BoxCollider2D>().isTrigger = false;
+        //BarrierTwo.GetComponent<BoxCollider2D>().isTrigger = false;
         BarrierThree.GetComponent<BoxCollider2D>().isTrigger = false;
-
-        gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
 
     //When triggered, the boxes will disable and the player can leave.

@@ -375,7 +375,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0596323, y: 0.05745574}
+  m_Offset: {x: 0.024916202, y: 0.06427029}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -386,7 +386,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.52325785, y: 0.51227707}
+  m_Size: {x: 0.50255316, y: 0.4425578}
   m_EdgeRadius: 0
 --- !u!61 &61949294095823062
 BoxCollider2D:
@@ -400,7 +400,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.018900186, y: 0.04294712}
+  m_Offset: {x: 0.024916202, y: 0.06427029}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -411,7 +411,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35500097, y: 0.28906864}
+  m_Size: {x: 0.50255316, y: 0.4425578}
   m_EdgeRadius: 0
 --- !u!81 &81814035656976778
 AudioListener:
@@ -607,6 +607,9 @@ MonoBehaviour:
   moveSpeed: 5
   IsMapCharacter: 0
   sprintSpeed: 8
+  Sounds:
+  - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
+  - {fileID: 8300000, guid: 078684557e48544abbc1a02d97630ebb, type: 3}
 --- !u!114 &114788172620655624
 MonoBehaviour:
   m_ObjectHideFlags: 1

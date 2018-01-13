@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public bool IsMapCharacter;
     public int sprintSpeed = 8;
+    public AudioClip[] Sounds = new AudioClip[2];
 
     // Use this for initialization
     void Start()
@@ -102,6 +103,7 @@ public class Player : MonoBehaviour
             sr.flipX = false;
             if (audioSource.isPlaying == false && grounded)
             {
+                audioSource.clip = Sounds[0];
                 audioSource.Play();
             }
 
@@ -121,6 +123,7 @@ public class Player : MonoBehaviour
             sr.flipX = true;
             if (audioSource.isPlaying == false && grounded)
             {
+                audioSource.clip = Sounds[0];
                 audioSource.Play();
             }
         }
@@ -183,5 +186,12 @@ public class Player : MonoBehaviour
         float newY = Mathf.Clamp(transform.position.y, minY, maxY);
 
         transform.position = new Vector3(newX, newY, transform.position.z);
+    }
+
+    public void TakeDamage(int DamageToTake)
+    {
+        PlayerPrefsManager.DealDamage(DamageToTake);
+        audioSource.clip = Sounds[1];
+        audioSource.Play();
     }
 }

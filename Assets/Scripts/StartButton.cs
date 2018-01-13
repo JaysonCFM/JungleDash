@@ -26,5 +26,11 @@ public class StartButton : MonoBehaviour {
         {
             levelManager.LoadLevel(LevelToLoad);
         }
+
+        if (PlayerPrefsManager.GetUnlockedLevel() == 0)
+        {
+            PlayerPrefsManager.SetHealth(100);
+            levelManager.LoadLevel("TutorialScreen");
+        }
     }
 }

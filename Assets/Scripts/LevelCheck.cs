@@ -19,12 +19,8 @@ public class LevelCheck : MonoBehaviour {
         text = FindObjectOfType<Text>();
         text.text = "";
 
-        if (PlayerPrefsManager.GetUnlockedLevel() == 0)
-        {
-            PlayerPrefsManager.SetHealth(100);
-            levelManager.LoadLevel("TutorialScreen");
-        }
-        else if (PlayerPrefsManager.GetUnlockedLevel() == 26)
+
+        if (PlayerPrefsManager.GetUnlockedLevel() == 26)
         {
             levelManager.LoadLevel("Win Screen");
         }
