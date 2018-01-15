@@ -187,7 +187,7 @@ Transform:
   m_GameObject: {fileID: 1586968504019392}
   m_LocalRotation: {x: -0, y: -0, z: -0.38268343, w: 0.92387956}
   m_LocalPosition: {x: -0.18, y: 0.03, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
+  m_LocalScale: {x: 3.9879005, y: 3.987902, z: 0}
   m_Children: []
   m_Father: {fileID: 4446160513943308}
   m_RootOrder: 1
@@ -348,7 +348,7 @@ PolygonCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.6, y: 1}
-    newSize: {x: 0.42, y: 0.57}
+    newSize: {x: 0.6, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -375,18 +375,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.024916202, y: 0.06427029}
+  m_Offset: {x: 0.03363505, y: 0.033448704}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.50255316, y: 0.4425578}
+  m_Size: {x: 0.3902791, y: 0.33325046}
   m_EdgeRadius: 0
 --- !u!61 &61949294095823062
 BoxCollider2D:
@@ -564,7 +564,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Weapon3: {fileID: 0}
   Gun: {fileID: 0}
   NoWeapon: {fileID: 1852363781130228}
   DamageToTake: 4
@@ -609,7 +608,7 @@ MonoBehaviour:
   sprintSpeed: 8
   Sounds:
   - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
-  - {fileID: 8300000, guid: 078684557e48544abbc1a02d97630ebb, type: 3}
+  - {fileID: 8300000, guid: 0780bfacd08fdaa4d88250f0acbdd70f, type: 3}
 --- !u!114 &114788172620655624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -623,7 +622,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Weapon3: {fileID: 0}
   Gun: {fileID: 0}
   NoWeapon: {fileID: 1852363781130228}
   DamageToTake: 6
@@ -640,7 +638,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Weapon3: {fileID: 0}
   Gun: {fileID: 0}
   NoWeapon: {fileID: 1852363781130228}
   DamageToTake: 0
@@ -685,7 +682,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300042, guid: 98baed28a50f6c742818cceade99a477, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 67e506c2cecc1b541a9e7e9314d86574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -729,7 +726,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 70d9ed8aa71fd534ba23174a9e0e0080, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 67e506c2cecc1b541a9e7e9314d86574, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -778,7 +775,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.42, y: 0.57}
+  m_Size: {x: 0.6, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

@@ -6,44 +6,44 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/Splash Screen.unity
+    path: Assets/All Scenes/Splash Screen.unity
     guid: f1447bcfb47f07b4aaf0867a447a5ce1
   - enabled: 1
-    path: Assets/_Scenes/TitleScreen.unity
+    path: Assets/All Scenes/TitleScreen.unity
     guid: eb8c980a79023ae4a8f6a17cbbc3d43c
   - enabled: 1
-    path: Assets/_Scenes/Options.unity
+    path: Assets/All Scenes/Options.unity
     guid: 9328c9aaea310764d85b09c8f7cef437
   - enabled: 1
-    path: Assets/_Scenes/Map.unity
+    path: Assets/All Scenes/Map.unity
     guid: d06b8e9389009cf41a996707a89eb508
   - enabled: 1
-    path: Assets/_Scenes/TutorialScreen.unity
+    path: Assets/All Scenes/TutorialScreen.unity
     guid: ed64b49f619a55b469a4ec6444c6d951
   - enabled: 1
-    path: Assets/_Scenes/Level 1.unity
+    path: Assets/All Scenes/Level 1.unity
     guid: 112be20e233687441845750ae38acc50
   - enabled: 1
-    path: Assets/_Scenes/Shop 1.unity
+    path: Assets/All Scenes/Shop 1.unity
     guid: 19ebaaa6dd78d1f4098e0527baea4d1b
   - enabled: 1
-    path: Assets/_Scenes/Level 2.unity
+    path: Assets/All Scenes/Level 2.unity
     guid: 756b491a882a70b4586effde040facf8
   - enabled: 1
-    path: Assets/_Scenes/Shop 2.unity
+    path: Assets/All Scenes/Shop 2.unity
     guid: e39b1459fa764d54295753d2a4dc9ae9
   - enabled: 1
-    path: Assets/_Scenes/Level 3.unity
+    path: Assets/All Scenes/Level 3.unity
     guid: 3b4729646636f1e43bdd7de07f36d8c2
   - enabled: 1
-    path: Assets/_Scenes/Shop 3.unity
+    path: Assets/All Scenes/Shop 3.unity
     guid: c4293abc9e16ecc44b80b1ed836cbf0f
   - enabled: 1
-    path: Assets/_Scenes/Casino.unity
+    path: Assets/All Scenes/Casino.unity
     guid: 03c6a5dddcf1d884aa35a7941e3f10fa
   - enabled: 1
-    path: Assets/_Scenes/Game Over Screen.unity
+    path: Assets/All Scenes/Game Over Screen.unity
     guid: e477617ff9432e5488dd91b7fa8994ea
   - enabled: 1
-    path: Assets/_Scenes/Win Screen.unity
+    path: Assets/All Scenes/Win Screen.unity
     guid: 69de7020263b3f14fa12ce2d3aad326c

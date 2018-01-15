@@ -1204,6 +1204,8 @@ MonoBehaviour:
   ItemName: Blood Cross
   ItemDescription: 'Blood Cross : 10'
   text: {fileID: 1189397208}
+  IsInventory: 0
+  IsWeapon: 0
 --- !u!61 &821442844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1770,6 +1772,8 @@ MonoBehaviour:
   ItemName: Demon's Special Brew
   ItemDescription: 'Demon''s Special Brew : 99'
   text: {fileID: 1189397208}
+  IsInventory: 0
+  IsWeapon: 0
 --- !u!61 &1443247879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2140,6 +2144,8 @@ MonoBehaviour:
   ItemName: Torch
   ItemDescription: 'Torch : 5'
   text: {fileID: 1189397208}
+  IsInventory: 1
+  IsWeapon: 0
 --- !u!61 &1694369776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2193,12 +2199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4193f0d82648824b8b7be15b88cf8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level1: 0
-  Level2: 1
-  Level3: 0
-  Level4: 0
-  Level5: 0
-  Level6: 0
 --- !u!61 &1734590440
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2573,6 +2573,9 @@ MonoBehaviour:
   moveSpeed: 5
   IsMapCharacter: 0
   sprintSpeed: 5
+  Sounds:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!60 &1875360200
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2719,12 +2722,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 960
+      value: 474.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 540
+      value: 267
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -2922,6 +2925,8 @@ MonoBehaviour:
   ItemName: Bomb
   ItemDescription: 'Bomb : 15'
   text: {fileID: 1189397208}
+  IsInventory: 1
+  IsWeapon: 0
 --- !u!61 &2032085885
 BoxCollider2D:
   m_ObjectHideFlags: 0

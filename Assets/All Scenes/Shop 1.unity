@@ -592,7 +592,7 @@ SpriteRenderer:
   m_Size: {x: 0.52, y: 0.86}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &433782608
 Transform:
@@ -605,7 +605,7 @@ Transform:
   m_LocalScale: {x: 2.1192315, y: 2.1192322, z: 2.1192322}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &433782609
 MonoBehaviour:
@@ -721,79 +721,6 @@ RectTransform:
   m_AnchoredPosition: {x: -43.029, y: -44.079}
   m_SizeDelta: {x: 0.38, y: 0.48}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &479811688
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 479811690}
-  - component: {fileID: 479811689}
-  m_Layer: 0
-  m_Name: items_21
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &479811689
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 479811688}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300042, guid: 04ccb65bcc3a84c5ea3cc40519c3c91b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.36, y: 0.42}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
---- !u!4 &479811690
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 479811688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.026, y: -44.146, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &622462647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1131,8 @@ MonoBehaviour:
   ItemName: Blood Cross
   ItemDescription: 'Blood Cross : 10'
   text: {fileID: 1189397208}
+  IsInventory: 1
+  IsWeapon: 0
 --- !u!61 &821442844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1663,6 +1592,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1077370652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1077370654}
+  - component: {fileID: 1077370653}
+  m_Layer: 0
+  m_Name: Sheet_21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1077370653
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077370652}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300042, guid: 98baed28a50f6c742818cceade99a477, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &1077370654
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077370652}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: -39.022, y: -44.006, z: -6}
+  m_LocalScale: {x: 1.6632096, y: 1.6632096, z: 1.6632096}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
 --- !u!1 &1189397207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,10 +1768,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d3ac39b34b28d4d9ab3047a9f036c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cost: 99
-  ItemName: Demon's Special Brew
-  ItemDescription: 'Demon''s Special Brew : 99'
+  Cost: 25
+  ItemName: Stick 2
+  ItemDescription: 'Upgraded Stick : 15'
   text: {fileID: 1189397208}
+  IsInventory: 0
+  IsWeapon: 1
 --- !u!61 &1443247879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2140,6 +2144,8 @@ MonoBehaviour:
   ItemName: Torch
   ItemDescription: 'Torch : 5'
   text: {fileID: 1189397208}
+  IsInventory: 1
+  IsWeapon: 0
 --- !u!61 &1694369776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2193,12 +2199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4193f0d82648824b8b7be15b88cf8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level1: 0
-  Level2: 0
-  Level3: 1
-  Level4: 0
-  Level5: 0
-  Level6: 0
 --- !u!61 &1734590440
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2573,6 +2573,9 @@ MonoBehaviour:
   moveSpeed: 5
   IsMapCharacter: 0
   sprintSpeed: 5
+  Sounds:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!60 &1875360200
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2719,12 +2722,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 960
+      value: 474.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 540
+      value: 267
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -2922,6 +2925,8 @@ MonoBehaviour:
   ItemName: Bomb
   ItemDescription: 'Bomb : 15'
   text: {fileID: 1189397208}
+  IsInventory: 1
+  IsWeapon: 0
 --- !u!61 &2032085885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3111,5 +3116,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

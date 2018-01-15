@@ -9,5 +9,7 @@ public class LoseCollider : MonoBehaviour {
     {
         PlayerPrefsManager.SetHealth(0);
         PlayerPrefsManager.UnlockLevel(1);
+        //PlayerPrefsManager.SetWeapon("No Weapon");
+        //PlayerPrefsManager.SetInventory("No Item");
     }
 }

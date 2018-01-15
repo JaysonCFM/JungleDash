@@ -1570,7 +1570,7 @@ Transform:
   m_LocalScale: {x: -1.4371386, y: -1.4371389, z: -1.4371389}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 289
+  m_RootOrder: 290
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &137300218
 GameObject:
@@ -6160,11 +6160,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -885.18
+      value: -884.02
       objectReference: {fileID: 0}
     - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.77
+      value: -0.73
       objectReference: {fileID: 0}
     - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6197,6 +6197,18 @@ Prefab:
     - target: {fileID: 1630719033314462, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.5390251
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.9087017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691859609817004, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.96999997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 270591c5ef9a9b64d86f6438e7c20702, type: 2}
@@ -7254,7 +7266,7 @@ Transform:
   m_LocalScale: {x: 1.6741356, y: 1.437139, z: 1.437139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 293
+  m_RootOrder: 294
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530532770
 GameObject:
@@ -8212,7 +8224,7 @@ Transform:
   m_LocalScale: {x: 1.6741356, y: 1.437139, z: 1.437139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 296
+  m_RootOrder: 297
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &606336514
 GameObject:
@@ -8431,7 +8443,7 @@ Transform:
   m_LocalScale: {x: 1.6741356, y: 1.437139, z: 1.437139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 294
+  m_RootOrder: 295
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &613740495
 GameObject:
@@ -10418,7 +10430,7 @@ Transform:
   m_LocalScale: {x: -1.4371386, y: -1.4371389, z: -1.4371389}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 291
+  m_RootOrder: 292
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &729421105
 Prefab:
@@ -11441,7 +11453,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 288
+  m_RootOrder: 289
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &817002837
 Prefab:
@@ -11560,7 +11572,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 237fa4d312a77b64dae15ae8dad4128a, type: 3}
-    m_FontSize: 15
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -11924,7 +11936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42a9643968ee48468c11808de358621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textString: Press Space to Enter the Shop
+  textString: Press Spacebar to Enter the Shop
   text: {fileID: 126799092}
 --- !u!1 &851917168
 GameObject:
@@ -12413,7 +12425,7 @@ Transform:
   m_LocalScale: {x: 1.6741356, y: 1.437139, z: 1.437139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 297
+  m_RootOrder: 298
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &893048367
 GameObject:
@@ -12585,7 +12597,7 @@ Transform:
   m_LocalScale: {x: 2.6635418, y: 10.317233, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 298
+  m_RootOrder: 288
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &895118016
 Prefab:
@@ -14878,37 +14890,37 @@ Prefab:
     - target: {fileID: 224555599432374154, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 147.64796
+      value: 397.81506
       objectReference: {fileID: 0}
     - target: {fileID: 224555599432374154, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 437.79108
+      value: 206.72623
       objectReference: {fileID: 0}
     - target: {fileID: 224743381913093348, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -228.34789
+      value: -478.51495
       objectReference: {fileID: 0}
     - target: {fileID: 224743381913093348, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 436.5011
+      value: 205.43623
       objectReference: {fileID: 0}
     - target: {fileID: 224596142932389332, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -169.44797
+      value: -419.61505
       objectReference: {fileID: 0}
     - target: {fileID: 224596142932389332, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 436.5011
+      value: 205.43623
       objectReference: {fileID: 0}
     - target: {fileID: 224081071740345826, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000030517578
       objectReference: {fileID: 0}
     - target: {fileID: 114562477627230918, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -14933,7 +14945,7 @@ Prefab:
     - target: {fileID: 114562477627230918, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 224827340948748966, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -16443,7 +16455,7 @@ Transform:
   m_LocalScale: {x: -1.4371386, y: -1.4371389, z: -1.4371389}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 290
+  m_RootOrder: 291
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1122023237
 GameObject:
@@ -17496,7 +17508,7 @@ Transform:
   m_LocalScale: {x: 1.6741356, y: 1.437139, z: 1.437139}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 295
+  m_RootOrder: 296
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1188852388
 GameObject:
@@ -19352,8 +19364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BarrierOne: {fileID: 1440312033}
-  BarrierTwo: {fileID: 812574354}
-  BarrierThree: {fileID: 937455806}
+  BarrierTwo: {fileID: 937455806}
 --- !u!50 &1357503440
 Rigidbody2D:
   serializedVersion: 4
@@ -22683,7 +22694,6 @@ GameObject:
   - component: {fileID: 1598334154}
   - component: {fileID: 1598334157}
   - component: {fileID: 1598334158}
-  - component: {fileID: 1598334156}
   m_Layer: 0
   m_Name: tile_temple_0 (2)
   m_TagString: Blocks
@@ -22760,19 +22770,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!114 &1598334156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1598334153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f42a9643968ee48468c11808de358621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textString: Use Spacebar to enter the shop!
-  text: {fileID: 0}
 --- !u!61 &1598334157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24326,7 +24323,7 @@ Transform:
   m_LocalScale: {x: -1.4371386, y: -1.4371389, z: -1.4371389}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 292
+  m_RootOrder: 293
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682927518
 GameObject:

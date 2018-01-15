@@ -37,7 +37,7 @@ Transform:
   m_GameObject: {fileID: 1964417422535856}
   m_LocalRotation: {x: 0.0003234547, y: 0.00032561156, z: 0.7094519, w: 0.70475376}
   m_LocalPosition: {x: -849.73, y: 0.52, z: -0}
-  m_LocalScale: {x: -1.3067212, y: -1.3067199, z: -1.3067199}
+  m_LocalScale: {x: -1.5, y: -1.5, z: -1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 3
-  Health: 1
+  Health: 3
 --- !u!212 &212029019419657576
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -76,6 +76,11 @@ public class Player : MonoBehaviour
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.up * Time.deltaTime * moveSpeed;
+                if (audioSource.isPlaying == false)
+                {
+                    audioSource.clip = Sounds[0];
+                    audioSource.Play();
+                }
             }
 
             //When it is a map character, the character will be able to move down on the map
@@ -83,6 +88,11 @@ public class Player : MonoBehaviour
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.down * Time.deltaTime * moveSpeed;
+                if (audioSource.isPlaying == false)
+                {
+                    audioSource.clip = Sounds[0];
+                    audioSource.Play();
+                }
             }
         }
     }
@@ -101,7 +111,7 @@ public class Player : MonoBehaviour
             }
             transform.position += Vector3.right * Time.deltaTime * moveSpeed;
             sr.flipX = false;
-            if (audioSource.isPlaying == false && grounded)
+            if (audioSource.isPlaying == false && grounded | IsMapCharacter)
             {
                 audioSource.clip = Sounds[0];
                 audioSource.Play();
@@ -121,7 +131,7 @@ public class Player : MonoBehaviour
             }
             transform.position += Vector3.left * Time.deltaTime * moveSpeed;
             sr.flipX = true;
-            if (audioSource.isPlaying == false && grounded)
+            if (audioSource.isPlaying == false && grounded | IsMapCharacter)
             {
                 audioSource.clip = Sounds[0];
                 audioSource.Play();

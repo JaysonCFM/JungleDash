@@ -12,35 +12,24 @@ public class DisplayWeapon : MonoBehaviour {
         {
             Stick.SetActive(true);
             Stick2.SetActive(false);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
         }
         else if (Weapon.Weapons[1])
         {
             Stick.SetActive(false);
             Stick2.SetActive(true);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
         }
         //else if (Weapon.Weapons[2])
         //{
         //    Stick.SetActive(false);
         //    Stick2.SetActive(false);
-        //    //Weapon3.SetActive(true);
-        //    //Gun.SetActive(false);
-        //}
-        //else if (Weapon.Weapons[3])
-        //{
-        //    Stick.SetActive(false);
-        //    Stick2.SetActive(false);
-        //    //Weapon3.SetActive(false);
         //    //Gun.SetActive(true);
         //}
-        else if (Weapon.Weapons[4])
+        else if (Weapon.Weapons[3])
         {
             Stick.SetActive(false);
             Stick2.SetActive(false);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
         }
     }

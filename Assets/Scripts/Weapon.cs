@@ -7,8 +7,8 @@ public class Weapon : MonoBehaviour
 
     private Player player;
     private Animator animator;
-    public static bool[] Weapons = new bool[5];
-    public GameObject Stick, Stick2, Weapon3, Gun, NoWeapon;
+    public static bool[] Weapons = new bool[4];
+    public GameObject Stick, Stick2, Gun, NoWeapon;
     public int DamageToTake;
 
     private bool IsArmed;
@@ -38,7 +38,6 @@ public class Weapon : MonoBehaviour
         {
             Stick.SetActive(true);
             Stick2.SetActive(false);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
@@ -46,7 +45,6 @@ public class Weapon : MonoBehaviour
         {
             Stick.SetActive(false);
             Stick2.SetActive(true);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
@@ -54,23 +52,14 @@ public class Weapon : MonoBehaviour
         //{
         //    Stick.SetActive(false);
         //    Stick2.SetActive(false);
-        //    //Weapon3.SetActive(true);
-        //    //Gun.SetActive(false);
-        //    NoWeapon.SetActive(false);
-        //}
-        //else if (Weapons[3])
-        //{
-        //    Stick.SetActive(false);
-        //    Stick2.SetActive(false);
         //    //Weapon3.SetActive(false);
         //    //Gun.SetActive(true);
               //NoWeapon.SetActive(false);
         //}
-        else if (Weapons[4])
+        else if (Weapons[3])
         {
             Stick.SetActive(false);
             Stick2.SetActive(false);
-            //Weapon3.SetActive(false);
             //Gun.SetActive(false);
             NoWeapon.SetActive(true);
         }
@@ -85,7 +74,6 @@ public class Weapon : MonoBehaviour
             Weapons[1] = false;
             Weapons[2] = false;
             Weapons[3] = false;
-            Weapons[4] = false;
         }
         else if (PlayerPrefsManager.GetWeapon() == "Stick 2")
         {
@@ -93,32 +81,20 @@ public class Weapon : MonoBehaviour
             Weapons[1] = true;
             Weapons[2] = false;
             Weapons[3] = false;
-            Weapons[4] = false;
         }
-        //TODO: CHANGE TO WEAPON 3
-        //else if (PlayerPrefsManager.GetWeapon() == "Weapon 3")
+        //else if (PlayerPrefsManager.GetWeapon() == "Gun")
         //{
         //    Weapons[0] = false;
         //    Weapons[1] = false;
         //    Weapons[2] = true;
         //    Weapons[3] = false;
-        //    Weapons[4] = false;
-        //}
-        //else if (PlayerPrefsManager.GetWeapon() == "Gun")
-        //{
-        //    Weapons[0] = false;
-        //    Weapons[1] = false;
-        //    Weapons[2] = false;
-        //    Weapons[3] = true;
-        //    Weapons[4] = false;
         //}
         else if (PlayerPrefsManager.GetWeapon() == "No Weapon")
         {
             Weapons[0] = false;
             Weapons[1] = false;
             Weapons[2] = false;
-            Weapons[3] = false;
-            Weapons[4] = true;
+            Weapons[3] = true;
         }
     }
 

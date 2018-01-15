@@ -17,6 +17,8 @@ public class BuyingSystem : MonoBehaviour {
     public string ItemDescription;
 
     public Text text;
+
+    public bool IsInventory, IsWeapon;
    
     
     private void Update()
@@ -54,7 +56,14 @@ public class BuyingSystem : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) && itemCounter == 0)
         {
             PlayerPrefsManager.DealDamage(Cost);
-            PlayerPrefsManager.SetInventory(ItemName);
+            if (IsInventory)
+            {
+                PlayerPrefsManager.SetInventory(ItemName);
+            }
+            else if (IsWeapon)
+            {
+                PlayerPrefsManager.SetWeapon(ItemName);
+            }
             itemCounter++;
 
         }
