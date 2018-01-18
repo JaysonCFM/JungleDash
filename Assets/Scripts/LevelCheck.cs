@@ -19,7 +19,6 @@ public class LevelCheck : MonoBehaviour {
         text = FindObjectOfType<Text>();
         text.text = "";
 
-
         if (PlayerPrefsManager.GetUnlockedLevel() == 26)
         {
             levelManager.LoadLevel("Win Screen");
@@ -29,7 +28,6 @@ public class LevelCheck : MonoBehaviour {
         {
             gameObject.SetActive(true);
         }
-
         else
         {
             gameObject.SetActive(false);

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Blocks
   - Map Pin
+  - Text
   layers:
   - Default
   - TransparentFX

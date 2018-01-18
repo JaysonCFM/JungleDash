@@ -186,11 +186,11 @@ public class Player : MonoBehaviour
 
     private void BindMapPlayer()
     {
-        int minX = -44;
-        int maxX = -27;
+        int minX = -38;
+        int maxX = -34;
 
-        int minY = -3;
-        int maxY = 3;
+        int minY = -1;
+        int maxY = 1;
 
         float newX = Mathf.Clamp(transform.position.x, minX, maxX);
         float newY = Mathf.Clamp(transform.position.y, minY, maxY);

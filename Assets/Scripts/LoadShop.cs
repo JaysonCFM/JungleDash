@@ -35,8 +35,6 @@ public class LoadShop : MonoBehaviour {
     {
         //when you hit the trigger on the door, then it sets IsOverDoor true
         IsOverDoor = true;
-
-
     }
 
     private void OnTriggerStay2D(Collider2D collision)

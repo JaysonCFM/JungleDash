@@ -51,7 +51,6 @@ public class Inventory : MonoBehaviour
             }
             else if (Items[3])
             {
-                DemonsBrew();
                 Items[3] = false;
                 PlayerPrefsManager.SetInventory("No Item");
             }
@@ -127,11 +126,6 @@ public class Inventory : MonoBehaviour
     {
         GameObject bomb = Instantiate(explosive) as GameObject;
         bomb.transform.position = transform.position;
-    }
-
-    void DemonsBrew()
-    {
-
     }
 
     void BloodCrossTimer()

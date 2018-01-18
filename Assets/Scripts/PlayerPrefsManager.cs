@@ -10,6 +10,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     public const string MASTER_VOLUME_KEY = "master_volume";
     const string WEAPON_SELECTED = "weapon_selected";
     const string INVENTORY_ITEM = "inventory_item";
+    const string DIFFICULTY_SETTING = "difficulty_setting";
 
     public static bool IsIndestructible;
 
@@ -17,7 +18,6 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static void UnlockLevel(int level)
     {
         PlayerPrefs.SetInt(LEVEL_KEY, level);
-
     }
 
     //Returns the stored number, so that levels can be played from the map.
@@ -27,11 +27,23 @@ public class PlayerPrefsManager : MonoBehaviour {
     }
 
     //Health for the player, stored offline
+    //Each difficulty increment doubles the amount of damage you take when playing.
     public static void DealDamage(int damageGiven)
     {
         if (!IsIndestructible)
         {
-			PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
+            if (GetDifficulty() == 0)
+            {
+                PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
+            }
+            else if (GetDifficulty() == 1)
+            {
+                PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 2));
+            }
+            else if (GetDifficulty() == 2)
+            {
+                PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 4));
+            }
         } else
         {
             PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - 0);
@@ -69,7 +81,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     public static float GetMasterVolume()
     {
-        return PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
+		return (float)(PlayerPrefs.GetFloat(MASTER_VOLUME_KEY));
     }
 
     public static void SetWeapon(string Weapon)
@@ -90,5 +102,17 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static string GetInventory()
     {
         return PlayerPrefs.GetString(INVENTORY_ITEM);
+    }
+
+    //Sets the difficulty from the slider in the options
+    public static void SetDifficulty(float Difficulty)
+    {
+        PlayerPrefs.SetFloat(DIFFICULTY_SETTING, Difficulty);
+    }
+
+    //Returns difficulty slider selection.
+    public static float GetDifficulty()
+    {
+		return (float)(PlayerPrefs.GetFloat(DIFFICULTY_SETTING));
     }
 }

@@ -1768,7 +1768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d3ac39b34b28d4d9ab3047a9f036c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cost: 25
+  Cost: 15
   ItemName: Stick 2
   ItemDescription: 'Upgraded Stick : 15'
   text: {fileID: 1189397208}
@@ -2722,12 +2722,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 474.5
+      value: 297
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 267
+      value: 167
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -3034,7 +3034,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4ed3cbaa250114c4f83b0694cd55b578, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 08f80588c1e93464287a82ee4a723915, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

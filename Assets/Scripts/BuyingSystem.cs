@@ -18,7 +18,7 @@ public class BuyingSystem : MonoBehaviour {
 
     public Text text;
 
-    public bool IsInventory, IsWeapon;
+    public bool IsItem, IsWeapon;
    
     
     private void Update()
@@ -34,7 +34,6 @@ public class BuyingSystem : MonoBehaviour {
     {
         //when you hit the trigger on the door, then it sets IsOverDoor true
         IsOverItem = true;
-
 
     }
     //lets you only buy if you are on the pedstool
@@ -52,11 +51,21 @@ public class BuyingSystem : MonoBehaviour {
     private void BuyItem()
     {
         text.text = ItemDescription;
-        //when you press Spacebar it buys the item but it withdraws from your health
+        //when you press Spacebar it buys the item
         if (Input.GetKeyDown(KeyCode.Space) && itemCounter == 0)
         {
-            PlayerPrefsManager.DealDamage(Cost);
-            if (IsInventory)
+			//subtract item cost from health, accounting for difficulty level
+			if (PlayerPrefsManager.GetDifficulty() == 0f) {
+				PlayerPrefsManager.DealDamage(Cost);
+			}
+			if (PlayerPrefsManager.GetDifficulty() == 1f) {
+				PlayerPrefsManager.DealDamage(Cost / 2);
+			}
+			if (PlayerPrefsManager.GetDifficulty() == 2f) {
+				PlayerPrefsManager.DealDamage(Cost / 4);
+			}
+			//if-statements to put item in correct inventory slot
+            if (IsItem)
             {
                 PlayerPrefsManager.SetInventory(ItemName);
             }
@@ -65,7 +74,6 @@ public class BuyingSystem : MonoBehaviour {
                 PlayerPrefsManager.SetWeapon(ItemName);
             }
             itemCounter++;
-
         }
     }
 }

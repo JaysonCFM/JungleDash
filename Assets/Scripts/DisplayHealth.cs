@@ -20,7 +20,7 @@ public class DisplayHealth : MonoBehaviour {
         //Getting health from the playerprefs, and displays it
         health = PlayerPrefsManager.GetHealth();
         text.text = "Health: " + health.ToString();
-
+		//update color of health text
         ColorHealth();
     }
 

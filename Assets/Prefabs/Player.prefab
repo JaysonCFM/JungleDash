@@ -608,7 +608,7 @@ MonoBehaviour:
   sprintSpeed: 8
   Sounds:
   - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
-  - {fileID: 8300000, guid: 0780bfacd08fdaa4d88250f0acbdd70f, type: 3}
+  - {fileID: 8300000, guid: 75b8868208a3a4e5484598701a0759c8, type: 3}
 --- !u!114 &114788172620655624
 MonoBehaviour:
   m_ObjectHideFlags: 1

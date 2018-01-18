@@ -396,8 +396,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503238011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 474.5, y: 267, z: 0}
-  m_LocalScale: {x: 0.74140626, y: 0.74140626, z: 0.74140626}
+  m_LocalPosition: {x: 188, y: 106, z: 0}
+  m_LocalScale: {x: 0.29375, y: 0.29375, z: 0.29375}
   m_Children:
   - {fileID: 1840283353}
   - {fileID: 259288534}
@@ -517,7 +517,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1586191131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.03003, y: 179.94644, z: 0}
+  m_LocalPosition: {x: 105.03003, y: 180.67108, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}
@@ -646,7 +646,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Options
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1613844865
@@ -957,7 +957,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1944029567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 201.87, y: 281.97644, z: 0}
+  m_LocalPosition: {x: 201.87, y: 282.70108, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}
