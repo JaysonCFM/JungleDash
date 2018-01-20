@@ -3,6 +3,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/Temporary/
 /Assets/AssetStoreTools*
 
 # Visual Studio 2017 (or VS Code) cache directory
