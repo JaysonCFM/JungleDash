@@ -174,6 +174,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &120691727 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114562477627230918, guid: 59fa80915dca3ed4d8fd969532c9b2da,
+    type: 2}
+  m_PrefabInternal: {fileID: 1418783838}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &147561346
 Prefab:
   m_ObjectHideFlags: 0
@@ -241,11 +247,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -11997.65
+      value: -11997.56
       objectReference: {fileID: 0}
     - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.65
+      value: 3.56
       objectReference: {fileID: 0}
     - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -277,11 +283,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
       propertyPath: m_LocalScale.x
-      value: 2.3659549
+      value: 2.3161023
       objectReference: {fileID: 0}
     - target: {fileID: 1650690531851560, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
       propertyPath: m_TagString
       value: Blocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4.188139
+      objectReference: {fileID: 0}
+    - target: {fileID: 4339915242008864, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.97892934
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
@@ -403,6 +417,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c97adb84255db104a97581a504f8ebd0, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &543780333 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1650690531851560, guid: c97adb84255db104a97581a504f8ebd0,
+    type: 2}
+  m_PrefabInternal: {fileID: 356407806}
+--- !u!114 &543780338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 543780333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a9643968ee48468c11808de358621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textString: Jump from the edge of the cloud for a super jump!
+  text: {fileID: 120691727}
 --- !u!1001 &544693772
 Prefab:
   m_ObjectHideFlags: 0
@@ -604,12 +636,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 569
+      value: 361.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 262.5
+      value: 203.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -875,6 +907,11 @@ Prefab:
         type: 2}
       propertyPath: m_WasSpriteAssigned
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20955632497438580, guid: e298b6f782fd6e94b84db22fc0888d18,
+        type: 2}
+      propertyPath: orthographic size
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e298b6f782fd6e94b84db22fc0888d18, type: 2}

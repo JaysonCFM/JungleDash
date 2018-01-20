@@ -26,5 +26,11 @@ public class DisplayWeapon : MonoBehaviour {
         //    Stick2.SetActive(false);
         //    //Gun.SetActive(true);
         //}
+        else if (Weapon.Weapons[3])
+        {
+            Stick.SetActive(false);
+            Stick2.SetActive(false);
+            //Gun.SetActive(false);
+        }
     }
 }

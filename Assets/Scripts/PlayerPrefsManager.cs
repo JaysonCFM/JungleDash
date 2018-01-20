@@ -32,19 +32,20 @@ public class PlayerPrefsManager : MonoBehaviour {
     {
         if (!IsIndestructible)
         {
-            if (GetDifficulty() == 0)
+            if (GetDifficulty() == 0f)
             {
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
             }
-            else if (GetDifficulty() == 1)
+            else if (GetDifficulty() == 1f)
             {
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 2));
             }
-            else if (GetDifficulty() == 2)
+            else if (GetDifficulty() == 2f)
             {
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 4));
             }
-        } else
+        } 
+		else
         {
             PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - 0);
         }
