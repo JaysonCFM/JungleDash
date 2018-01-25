@@ -42,6 +42,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1486109566637976
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4394886622720048}
+  - component: {fileID: 212004250481832224}
+  - component: {fileID: 114182184034955548}
+  - component: {fileID: 50993342089461410}
+  m_Layer: 0
+  m_Name: dart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1586968504019392
 GameObject:
   m_ObjectHideFlags: 1
@@ -100,6 +118,23 @@ GameObject:
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1800935527467120
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4840322282457418}
+  - component: {fileID: 212967464012594332}
+  - component: {fileID: 114708881869231682}
+  m_Layer: 0
+  m_Name: bamboo_blowgun
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,6 +214,19 @@ Transform:
   m_Father: {fileID: 4082255985820660}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4394886622720048
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486109566637976}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 0.239, y: -0.239, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4840322282457418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
 --- !u!4 &4440722513157606
 Transform:
   m_ObjectHideFlags: 1
@@ -205,6 +253,7 @@ Transform:
   - {fileID: 4049439952373656}
   - {fileID: 4440722513157606}
   - {fileID: 4538266655242942}
+  - {fileID: 4840322282457418}
   m_Father: {fileID: 4806130800726162}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -236,6 +285,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4840322282457418
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800935527467120}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: -0.009, y: -0.257, z: 0}
+  m_LocalScale: {x: 0.82620096, y: 0.82620096, z: 0}
+  m_Children:
+  - {fileID: 4394886622720048}
+  m_Father: {fileID: 4446160513943308}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!20 &20955632497438580
 Camera:
   m_ObjectHideFlags: 1
@@ -331,6 +394,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!50 &50993342089461410
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486109566637976}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!60 &60443673880826078
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -564,9 +647,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Gun: {fileID: 0}
+  Gun: {fileID: 1800935527467120}
   NoWeapon: {fileID: 1852363781130228}
+  Bullet: {fileID: 1486109566637976}
   DamageToTake: 4
+  DartSpeed: 0
 --- !u!114 &114182001033527444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -579,6 +664,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1781526399524872}
+--- !u!114 &114182184034955548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486109566637976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5095523a06f84ae4e9a91e1c4b485d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageToTake: 10
 --- !u!114 &114265353910214582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -591,6 +688,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bomb: {fileID: 1506406405290900, guid: a3efcab4341ab204cb761b67314a75c7, type: 2}
+--- !u!114 &114708881869231682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800935527467120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca5646be26128f4ea95bb2ffb7cf553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stick: {fileID: 1681489650458368}
+  Stick2: {fileID: 1586968504019392}
+  Gun: {fileID: 1800935527467120}
+  NoWeapon: {fileID: 1852363781130228}
+  Bullet: {fileID: 1304524699584048, guid: 669a14fe5f1ac8d49bba87babb79dada, type: 2}
+  DamageToTake: 0
+  DartSpeed: 10
 --- !u!114 &114785994227008244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -602,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 123e3760d57a3b740ba4bf7a1ce2478c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpPower: 300
+  jumpPower: 350
   moveSpeed: 5
   IsMapCharacter: 0
   sprintSpeed: 8
@@ -622,9 +737,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Gun: {fileID: 0}
+  Gun: {fileID: 1800935527467120}
   NoWeapon: {fileID: 1852363781130228}
+  Bullet: {fileID: 1486109566637976}
   DamageToTake: 6
+  DartSpeed: 0
 --- !u!114 &114866821137032394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -638,9 +755,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Stick: {fileID: 1681489650458368}
   Stick2: {fileID: 1586968504019392}
-  Gun: {fileID: 0}
+  Gun: {fileID: 1800935527467120}
   NoWeapon: {fileID: 1852363781130228}
+  Bullet: {fileID: 1486109566637976}
   DamageToTake: 0
+  DartSpeed: 0
 --- !u!124 &124544226617987300
 Behaviour:
   m_ObjectHideFlags: 1
@@ -648,6 +767,50 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1931042015485646}
   m_Enabled: 1
+--- !u!212 &212004250481832224
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486109566637976}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bec65a4e05dc04c19ab76e5d45041773, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.32, y: 0.32}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212258162970713368
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -820,6 +983,50 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 20.506666, y: 11.493333}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212967464012594332
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800935527467120}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 2ae6e4a72ccd94d2a932fdcf51563871, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

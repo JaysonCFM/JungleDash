@@ -16,6 +16,8 @@ public class Inventory : MonoBehaviour
 
     public GameObject bomb;
 
+    private float inventoryInput;
+
     private void Start()
     {
         player = FindObjectOfType<Player>();
@@ -25,10 +27,12 @@ public class Inventory : MonoBehaviour
     void Update()
     {
 
+        inventoryInput = Input.GetAxisRaw("Inventory");
+
         ItemsInInventory();
         BloodCrossTimer();
         //Sets items and disables them after use
-        if (Input.GetMouseButtonDown(1))
+        if (inventoryInput >= 1)
         {
 
             if (Items[0])

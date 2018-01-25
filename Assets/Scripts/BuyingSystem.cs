@@ -19,6 +19,8 @@ public class BuyingSystem : MonoBehaviour {
     public Text text;
 
     public bool IsItem, IsWeapon;
+
+    private float selectInput;
    
     
     private void Update()
@@ -28,6 +30,8 @@ public class BuyingSystem : MonoBehaviour {
         {
             BuyItem();
         }
+
+        selectInput = Input.GetAxisRaw("Submit");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -52,7 +56,7 @@ public class BuyingSystem : MonoBehaviour {
     {
         text.text = ItemDescription;
         //when you press Spacebar it buys the item
-        if (Input.GetKeyDown(KeyCode.Space) && itemCounter == 0)
+        if (selectInput >= 1 && itemCounter == 0)
         {
 			//subtract item cost from health, accounting for difficulty level
 			if (PlayerPrefsManager.GetDifficulty() == 0f) {

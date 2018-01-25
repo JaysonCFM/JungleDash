@@ -10,14 +10,19 @@ public class Lever : MonoBehaviour {
 
     private Animator animator;
 
-	// Use this for initialization
-	void Start () {
+    private float selectInput;
+
+    // Use this for initialization
+    void Start () {
         animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space) && OnTopOfLever)
+
+        selectInput = Input.GetAxisRaw("Submit");
+
+        if (selectInput >= 1 && OnTopOfLever)
         {
             animator.SetTrigger("LeverActivate");
             Level2BossStart.LeversActivate[SpotInArray] = true;

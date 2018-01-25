@@ -14,6 +14,8 @@ public class LoadShop : MonoBehaviour {
 
     public static string PreviousLevel;
 
+    private float selectInput;
+
 
     // Use this for initialization
     void Start()
@@ -24,8 +26,9 @@ public class LoadShop : MonoBehaviour {
     }
     private void Update()
     {
-       
-        if(IsOverDoor)
+        selectInput = Input.GetAxisRaw("Submit");
+
+        if (IsOverDoor)
         {
             EnterShop();
         }
@@ -50,7 +53,7 @@ public class LoadShop : MonoBehaviour {
     private void EnterShop()
     {
         //when you press spacebar inside of the trigger for the door then it will throw you into the level
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (selectInput >= 1)
         {
             LocationToRespawn = player.transform.position;
             if (Shop1)

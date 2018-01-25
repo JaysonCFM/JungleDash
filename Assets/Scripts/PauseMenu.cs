@@ -8,13 +8,32 @@ public class PauseMenu : MonoBehaviour {
 
     public bool isPaused;
 
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.Escape))
+    private bool IsPressed;
+
+    private float pauseInput;
+
+    // Update is called once per frame
+    void Update () {
+
+        pauseInput = Input.GetAxisRaw("Pause");
+
+        if (pauseInput >= 1)
         {
-            Pause();
+            if (IsPressed == false)
+            {
+                IsPressed = true;
+                Pause();
+            }
         }
-	}
+        else if (pauseInput <= -1)
+        {
+            if (IsPressed == true)
+            {
+                IsPressed = false;
+                Pause();
+            }
+        }
+    }
 
     public void Pause()
     {

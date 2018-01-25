@@ -8,10 +8,14 @@ public class Weapon : MonoBehaviour
     private Player player;
     private Animator animator;
     public static bool[] Weapons = new bool[4];
-    public GameObject Stick, Stick2, Gun, NoWeapon;
-    public int DamageToTake;
+    public GameObject Stick, Stick2, Gun, NoWeapon, Bullet;
+    public int DamageToTake, DartSpeed;
+
+    private float timer;
 
     private bool IsArmed;
+
+    private float weaponInput;
 
     // Use this for initialization
     void Start()
@@ -24,43 +28,53 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        weaponInput = Input.GetAxisRaw("Weapon");
+
+        if (weaponInput >= 1)
         {
             Attack();
         }
 
-        SelectedWeapon();
+        timer += Time.deltaTime;
 
-        //TODO: Add more weapons later
+        SelectedWeapon();
 
         //Hides from player the other weapons depending on current weapon
         if (Weapons[0])
         {
             Stick.SetActive(true);
             Stick2.SetActive(false);
-            //Gun.SetActive(false);
+            Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
         else if (Weapons[1])
         {
             Stick.SetActive(false);
             Stick2.SetActive(true);
-            //Gun.SetActive(false);
+            Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
-        //else if (Weapons[2])
-        //{
-        //    Stick.SetActive(false);
-        //    Stick2.SetActive(false);
-        //    //Weapon3.SetActive(false);
-        //    //Gun.SetActive(true);
-              //NoWeapon.SetActive(false);
-        //}
+        else if (Weapons[2])
+        {
+            Stick.SetActive(false);
+            Stick2.SetActive(false);
+            Gun.SetActive(true);
+            NoWeapon.SetActive(false);
+
+            if (player.GetComponent<SpriteRenderer>().flipX == true)
+            {
+                gameObject.transform.rotation = Quaternion.Euler(0, 0, 222);
+            }
+            else
+            {
+                gameObject.transform.rotation = Quaternion.Euler(0, 0, 45);
+            }
+        }
         else if (Weapons[3])
         {
             Stick.SetActive(false);
             Stick2.SetActive(false);
-            //Gun.SetActive(false);
+            Gun.SetActive(false);
             NoWeapon.SetActive(true);
         }
     }
@@ -82,13 +96,13 @@ public class Weapon : MonoBehaviour
             Weapons[2] = false;
             Weapons[3] = false;
         }
-        //else if (PlayerPrefsManager.GetWeapon() == "Gun")
-        //{
-        //    Weapons[0] = false;
-        //    Weapons[1] = false;
-        //    Weapons[2] = true;
-        //    Weapons[3] = false;
-        //}
+        else if (PlayerPrefsManager.GetWeapon() == "Gun")
+        {
+            Weapons[0] = false;
+            Weapons[1] = false;
+            Weapons[2] = true;
+            Weapons[3] = false;
+        }
         else if (PlayerPrefsManager.GetWeapon() == "No Weapon")
         {
             Weapons[0] = false;
@@ -110,6 +124,25 @@ public class Weapon : MonoBehaviour
             else
             {
                 animator.SetTrigger("Stick Activate Forward");
+            }
+        }
+        //For the dart gun, a timer is made to prevent extreme rapid fire from the user. A dart prefab with attacked collider and physics is created, and is pushed away from the player like a bullet.
+        else if (Weapons[2] && timer >= 0.5f)
+        {
+            if (player.GetComponent<SpriteRenderer>().flipX)
+            {
+                Vector3 offset = new Vector3(-0.25f, 0, 0);
+                GameObject dart = Instantiate(Bullet, transform.position + offset, Quaternion.identity) as GameObject;
+                dart.transform.eulerAngles = new Vector3(0,0,180);
+                dart.GetComponent<Rigidbody2D>().velocity = new Vector3(-DartSpeed, 0, 0);
+                timer = 0f;
+            }
+            else
+            {
+                Vector3 offset = new Vector3(0.25f, 0, 0);
+                GameObject dart = Instantiate(Bullet, transform.position + offset, Quaternion.identity) as GameObject;
+                dart.GetComponent<Rigidbody2D>().velocity = new Vector3(DartSpeed, 0, 0);
+                timer = 0f;
             }
         }
     }

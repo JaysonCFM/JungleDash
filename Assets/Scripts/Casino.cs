@@ -13,6 +13,8 @@ public class Casino : MonoBehaviour {
 
     public void PlaceBet()
     {
+        if (PlayerPrefsManager.GetHealth() >= 5)
+        {
         text.text = "";
 
         //Unity uses Random.Range instead of Random.Next.
@@ -20,19 +22,27 @@ public class Casino : MonoBehaviour {
 
         if (RandomNumber == CorrectBet)
         {
-			//displays won status and rewards player 10 health + the 5 they bet
-			text.text = "Wow, you won! Want to try again?";
-			if ((PlayerPrefsManager.GetHealth () + 15) <= 100) {
-				PlayerPrefsManager.AddHealth (15);
-			} else {
-				PlayerPrefsManager.SetHealth (100);
-			}
+            //displays won status and rewards player 10 health + the 5 they bet
+            text.text = "Wow, you won! Want to try again?";
+            if ((PlayerPrefsManager.GetHealth() + 15) <= 100)
+            {
+                PlayerPrefsManager.AddHealth(15);
+            }
+            else
+            {
+                PlayerPrefsManager.SetHealth(100);
+            }
         }
         else
         {
-			//displays loss status and deducts the 5 health the player bet
+            //displays loss status and deducts the 5 health the player bet
             text.text = "Better luck next time, but thanks for the health!";
-			PlayerPrefsManager.DealDamage(5);
+            PlayerPrefsManager.DealDamage(5);
+        }
+    }
+        else
+        {
+            text.text = "Health too low to gamble.";
         }
     }
 

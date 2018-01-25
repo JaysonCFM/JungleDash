@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     public float moveSpeed;
     public bool IsMapCharacter;
     public int sprintSpeed = 8;
+
+    private float sprintInput;
     public AudioClip[] Sounds = new AudioClip[2];
 
     // Use this for initialization
@@ -43,6 +45,8 @@ public class Player : MonoBehaviour
         //Getting the input of the player, these are used in place of hard coding the keys, in case they are changed in the editor.
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
+        float jumpInput = Input.GetAxisRaw("Jump");
+        sprintInput = Input.GetAxisRaw("Sprint");
         currentHealth = PlayerPrefsManager.GetHealth();
 
         //If the MapCharacter boolean is false (Which in most cases it will be, it's just to change some movement on the map instead of creating a seperate class)
@@ -57,7 +61,7 @@ public class Player : MonoBehaviour
             Movement(horizontalInput);
 
             //Allows the player to jump, AND prevents double jumping.
-            if (verticalInput >= 1 && grounded)
+            if (jumpInput >= 1 && grounded)
             {
                 grounded = false;
                 jumping = true;
@@ -72,7 +76,7 @@ public class Player : MonoBehaviour
             Movement(horizontalInput);
 
             //When it is a map character, the character will be able to move up on the map
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            if (verticalInput >= 1)
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.up * Time.deltaTime * moveSpeed;
@@ -84,7 +88,7 @@ public class Player : MonoBehaviour
             }
 
             //When it is a map character, the character will be able to move down on the map
-            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            if (verticalInput <= -1)
             {
                 animator.SetBool("IsWalking", true);
                 transform.position += Vector3.down * Time.deltaTime * moveSpeed;
@@ -144,7 +148,7 @@ public class Player : MonoBehaviour
             animator.SetBool("IsWalking", false);
         }
 
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        if (sprintInput >= 1)
         {
             moveSpeed = sprintSpeed;
         } else

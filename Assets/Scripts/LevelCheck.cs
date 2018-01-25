@@ -13,8 +13,10 @@ public class LevelCheck : MonoBehaviour {
 
     private bool IsOverLevel;
 
-	// Use this for initialization
-	void Start () {
+    private float selectInput;
+
+    // Use this for initialization
+    void Start () {
         levelManager = FindObjectOfType<LevelManager>();
         text = FindObjectOfType<Text>();
         text.text = "";
@@ -36,6 +38,8 @@ public class LevelCheck : MonoBehaviour {
 
     private void Update()
     {
+        selectInput = Input.GetAxisRaw("Submit");
+
         if (IsOverLevel)
         {
             LevelAppear();
@@ -63,7 +67,7 @@ public class LevelCheck : MonoBehaviour {
     {
         //When the player is on top of the level, then it will show the level name and when the level is selected, the game will load it.
         text.text = LevelName;
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (selectInput >= 1)
         {
             levelManager.LoadLevel(LevelToLoad);
             text.text = "Loading";
