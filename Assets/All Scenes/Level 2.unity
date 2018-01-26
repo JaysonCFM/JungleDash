@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 11242085}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (138)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 13989032}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (24)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 22908065}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (74)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1442,8 +1442,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 24192597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -184.838, y: -53.2, z: 20}
-  m_LocalScale: {x: 1.9293635, y: 1, z: 1}
+  m_LocalPosition: {x: -185.064, y: -53.2, z: 20}
+  m_LocalScale: {x: 1.8789737, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 364
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 29124888}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (97)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2030,7 +2030,7 @@ GameObject:
   - component: {fileID: 37969948}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (89)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2279,7 +2279,7 @@ GameObject:
   - component: {fileID: 41416824}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (29)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2391,7 +2391,7 @@ GameObject:
   - component: {fileID: 41749375}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (81)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3621,7 +3621,7 @@ GameObject:
   - component: {fileID: 72926745}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (118)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3733,7 +3733,7 @@ GameObject:
   - component: {fileID: 75834636}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (113)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3986,7 +3986,7 @@ GameObject:
   - component: {fileID: 76829487}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (128)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4498,7 +4498,7 @@ GameObject:
   - component: {fileID: 86756649}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (88)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5014,7 +5014,7 @@ GameObject:
   - component: {fileID: 99209809}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (36)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7930,7 +7930,7 @@ GameObject:
   - component: {fileID: 158690198}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (121)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9143,7 +9143,7 @@ GameObject:
   - component: {fileID: 185268127}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (40)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9255,7 +9255,7 @@ GameObject:
   - component: {fileID: 185974385}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (123)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9587,7 +9587,7 @@ GameObject:
   - component: {fileID: 190266340}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (85)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9801,7 +9801,7 @@ GameObject:
   - component: {fileID: 197674525}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (92)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11790,7 +11790,7 @@ GameObject:
   - component: {fileID: 233941475}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (16)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12305,7 +12305,7 @@ GameObject:
   - component: {fileID: 253742192}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (96)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14693,7 +14693,7 @@ GameObject:
   - component: {fileID: 297578011}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (42)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14805,7 +14805,7 @@ GameObject:
   - component: {fileID: 298107579}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (14)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14917,7 +14917,7 @@ GameObject:
   - component: {fileID: 298542426}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (129)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18418,7 +18418,7 @@ GameObject:
   - component: {fileID: 369370318}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (22)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18905,7 +18905,7 @@ GameObject:
   - component: {fileID: 375570235}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (38)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22873,7 +22873,7 @@ GameObject:
   - component: {fileID: 472636726}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (59)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23639,7 +23639,7 @@ GameObject:
   - component: {fileID: 493876655}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (90)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23815,7 +23815,7 @@ GameObject:
   - component: {fileID: 495618044}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (109)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24120,7 +24120,7 @@ GameObject:
   - component: {fileID: 503511754}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (61)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24619,7 +24619,7 @@ GameObject:
   - component: {fileID: 508931363}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (114)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24858,7 +24858,7 @@ GameObject:
   - component: {fileID: 510836122}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (127)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25255,7 +25255,7 @@ GameObject:
   - component: {fileID: 513005358}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (21)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26286,7 +26286,7 @@ GameObject:
   - component: {fileID: 537143160}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (69)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26887,7 +26887,7 @@ GameObject:
   - component: {fileID: 555781110}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (133)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28961,7 +28961,7 @@ GameObject:
   - component: {fileID: 589725726}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (107)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29649,7 +29649,7 @@ GameObject:
   - component: {fileID: 607734323}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (11)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29931,13 +29931,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 610751171}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -176.07, y: -47.067, z: 1}
-  m_LocalScale: {x: 1, y: 1.4097645, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: -176.07, y: -47.113, z: 2}
+  m_LocalScale: {x: 1, y: 1.3937284, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 165
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!61 &610751174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30049,7 +30049,7 @@ GameObject:
   - component: {fileID: 617071027}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (115)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30766,7 +30766,7 @@ GameObject:
   - component: {fileID: 633170313}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (80)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32593,7 +32593,7 @@ GameObject:
   - component: {fileID: 670663871}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (27)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32739,7 +32739,7 @@ GameObject:
   - component: {fileID: 675897691}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (3)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33253,7 +33253,7 @@ GameObject:
   - component: {fileID: 698060040}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (91)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33506,7 +33506,7 @@ GameObject:
   - component: {fileID: 703454007}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (70)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33618,7 +33618,7 @@ GameObject:
   - component: {fileID: 704930007}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (8)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35409,7 +35409,7 @@ GameObject:
   - component: {fileID: 745156153}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (26)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35594,7 +35594,7 @@ GameObject:
   - component: {fileID: 746740825}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (99)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36295,7 +36295,7 @@ GameObject:
   - component: {fileID: 762657936}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (65)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36704,7 +36704,7 @@ GameObject:
   - component: {fileID: 777220482}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (104)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37641,7 +37641,7 @@ GameObject:
   - component: {fileID: 792049214}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (122)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38492,7 +38492,7 @@ GameObject:
   - component: {fileID: 810002103}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (82)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38677,7 +38677,7 @@ GameObject:
   - component: {fileID: 812368446}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (100)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38857,7 +38857,7 @@ GameObject:
   - component: {fileID: 818244798}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (137)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39606,7 +39606,7 @@ GameObject:
   - component: {fileID: 833494978}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (72)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40295,7 +40295,7 @@ GameObject:
   - component: {fileID: 861646452}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (103)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40407,7 +40407,7 @@ GameObject:
   - component: {fileID: 863703409}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (136)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40519,7 +40519,7 @@ GameObject:
   - component: {fileID: 866807387}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (28)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40855,7 +40855,7 @@ GameObject:
   - component: {fileID: 873541390}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (130)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40967,7 +40967,7 @@ GameObject:
   - component: {fileID: 873581542}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (34)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41133,7 +41133,7 @@ GameObject:
   - component: {fileID: 874876173}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (66)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41705,7 +41705,7 @@ GameObject:
   - component: {fileID: 881343845}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (75)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42157,7 +42157,7 @@ GameObject:
   - component: {fileID: 893970453}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (20)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43141,7 +43141,7 @@ GameObject:
   - component: {fileID: 911931315}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (63)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43659,7 +43659,7 @@ GameObject:
   - component: {fileID: 923347282}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (35)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45011,7 +45011,7 @@ GameObject:
   - component: {fileID: 947355544}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (73)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45788,7 +45788,7 @@ GameObject:
   - component: {fileID: 957354093}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (77)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47570,7 +47570,7 @@ GameObject:
   - component: {fileID: 983283872}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (134)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48981,7 +48981,7 @@ GameObject:
   - component: {fileID: 1008720964}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (102)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50177,7 +50177,7 @@ GameObject:
   - component: {fileID: 1028928730}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (124)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50391,7 +50391,7 @@ GameObject:
   - component: {fileID: 1034358527}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (32)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50559,7 +50559,7 @@ GameObject:
   - component: {fileID: 1039279844}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (62)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51022,7 +51022,7 @@ GameObject:
   - component: {fileID: 1057995345}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (12)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51445,7 +51445,7 @@ GameObject:
   - component: {fileID: 1063420480}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (98)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52169,7 +52169,7 @@ GameObject:
   - component: {fileID: 1079158890}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (139)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53293,7 +53293,7 @@ GameObject:
   - component: {fileID: 1102641853}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (6)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54732,7 +54732,7 @@ GameObject:
   - component: {fileID: 1125841851}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (31)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55076,7 +55076,7 @@ GameObject:
   - component: {fileID: 1133905727}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (116)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55735,7 +55735,7 @@ GameObject:
   - component: {fileID: 1141036927}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (7)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56470,7 +56470,7 @@ GameObject:
   - component: {fileID: 1152584122}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (106)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56702,7 +56702,7 @@ GameObject:
   - component: {fileID: 1152935822}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (71)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59756,7 +59756,7 @@ GameObject:
   - component: {fileID: 1219763119}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (19)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60269,7 +60269,7 @@ GameObject:
   - component: {fileID: 1232000924}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (111)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60840,7 +60840,7 @@ GameObject:
   - component: {fileID: 1253834289}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (132)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60952,7 +60952,7 @@ GameObject:
   - component: {fileID: 1255313211}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (110)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62111,7 +62111,7 @@ GameObject:
   - component: {fileID: 1286010986}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (83)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62858,7 +62858,7 @@ GameObject:
   - component: {fileID: 1305075348}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (140)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63581,7 +63581,7 @@ GameObject:
   - component: {fileID: 1327950770}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (125)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63693,7 +63693,7 @@ GameObject:
   - component: {fileID: 1332304601}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (10)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64488,7 +64488,7 @@ GameObject:
   - component: {fileID: 1347351853}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (84)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64600,7 +64600,7 @@ GameObject:
   - component: {fileID: 1348408750}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (120)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65766,7 +65766,7 @@ GameObject:
   - component: {fileID: 1366738951}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (117)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66691,7 +66691,7 @@ GameObject:
   - component: {fileID: 1381614982}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (101)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67255,7 +67255,7 @@ GameObject:
   - component: {fileID: 1392660315}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (105)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67367,7 +67367,7 @@ GameObject:
   - component: {fileID: 1395206840}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (131)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67655,7 +67655,7 @@ GameObject:
   - component: {fileID: 1398589315}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (78)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70475,7 +70475,7 @@ GameObject:
   - component: {fileID: 1466007572}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (93)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71426,7 +71426,7 @@ GameObject:
   - component: {fileID: 1486690421}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (141)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71913,7 +71913,7 @@ GameObject:
   - component: {fileID: 1492371971}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (13)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72201,7 +72201,7 @@ GameObject:
   - component: {fileID: 1500552299}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (2)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73917,7 +73917,7 @@ GameObject:
   - component: {fileID: 1542152254}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75424,7 +75424,7 @@ GameObject:
   - component: {fileID: 1579395303}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (79)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76656,7 +76656,7 @@ GameObject:
   - component: {fileID: 1617763919}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (25)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76847,7 +76847,7 @@ GameObject:
   - component: {fileID: 1623888825}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (64)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77378,7 +77378,7 @@ GameObject:
   - component: {fileID: 1635113845}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (41)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77982,7 +77982,7 @@ GameObject:
   - component: {fileID: 1650065686}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (39)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78617,7 +78617,7 @@ GameObject:
   - component: {fileID: 1661042646}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (1)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79375,7 +79375,7 @@ GameObject:
   - component: {fileID: 1684937569}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (112)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80271,7 +80271,7 @@ GameObject:
   - component: {fileID: 1710275226}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (15)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80485,7 +80485,7 @@ GameObject:
   - component: {fileID: 1715467927}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (135)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82019,7 +82019,7 @@ GameObject:
   - component: {fileID: 1746639552}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (9)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82711,7 +82711,7 @@ GameObject:
   - component: {fileID: 1770903694}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (126)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83261,7 +83261,7 @@ GameObject:
   - component: {fileID: 1801641080}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (23)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83618,7 +83618,7 @@ GameObject:
   - component: {fileID: 1811202258}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (68)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84937,7 +84937,7 @@ GameObject:
   - component: {fileID: 1828148782}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (67)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85049,7 +85049,7 @@ GameObject:
   - component: {fileID: 1829369931}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (95)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86889,7 +86889,7 @@ GameObject:
   - component: {fileID: 1882032960}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (87)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87426,7 +87426,7 @@ GameObject:
   - component: {fileID: 1899401637}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (108)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88387,7 +88387,7 @@ GameObject:
   - component: {fileID: 1918166513}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (119)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90098,7 +90098,7 @@ GameObject:
   - component: {fileID: 1967283799}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (5)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90442,7 +90442,7 @@ GameObject:
   - component: {fileID: 1971912001}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (94)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91318,7 +91318,7 @@ GameObject:
   - component: {fileID: 1989622063}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (33)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91907,7 +91907,7 @@ GameObject:
   - component: {fileID: 2008010736}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (76)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93555,7 +93555,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2041147788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -181.16, y: -44.69, z: 1}
+  m_LocalPosition: {x: -181.16, y: -44.69, z: 3}
   m_LocalScale: {x: 1.0489942, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -93699,7 +93699,7 @@ GameObject:
   - component: {fileID: 2045664992}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (30)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94846,7 +94846,7 @@ GameObject:
   - component: {fileID: 2076066060}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (86)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95470,7 +95470,7 @@ GameObject:
   - component: {fileID: 2085192441}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (4)
-  m_TagString: Untagged
+  m_TagString: Ladder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97246,7 +97246,7 @@ GameObject:
   - component: {fileID: 2133682915}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (60)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97603,7 +97603,7 @@ GameObject:
   - component: {fileID: 2141285434}
   m_Layer: 0
   m_Name: tile_jungle_bridge_5 (18)
-  m_TagString: Untagged
+  m_TagString: Blocks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

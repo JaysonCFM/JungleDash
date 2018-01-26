@@ -14,7 +14,8 @@ public class Dart : MonoBehaviour {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(DamageToTake);
             Destroy(gameObject);
         }
-        else if (collision.gameObject.CompareTag("Blocks"))
+        //Everything else will destroy the dart, except for the player.
+        else if (!collision.gameObject.GetComponent<Player>())
         {
             Destroy(gameObject);
         }

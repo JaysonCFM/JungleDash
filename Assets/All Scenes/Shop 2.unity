@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 205029037}
   - component: {fileID: 205029036}
   m_Layer: 0
-  m_Name: items_14
+  m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 249773030}
   - component: {fileID: 249773029}
   m_Layer: 0
-  m_Name: items_1
+  m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 437790509}
   - component: {fileID: 437790506}
   m_Layer: 0
-  m_Name: items_25
+  m_Name: Blood Cross
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 712868528}
   - component: {fileID: 712868527}
   m_Layer: 0
-  m_Name: tile_temple_24
+  m_Name: Casino thing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 821442844}
   - component: {fileID: 821442843}
   m_Layer: 0
-  m_Name: tile_temple_23 (3)
+  m_Name: Blood Cross Pedestal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 1077370654}
   - component: {fileID: 1077370653}
   m_Layer: 0
-  m_Name: Sheet_21
+  m_Name: Stick 2.0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1751,7 +1751,7 @@ GameObject:
   - component: {fileID: 1443247879}
   - component: {fileID: 1443247878}
   m_Layer: 0
-  m_Name: tile_temple_23 (1)
+  m_Name: Stick Pedestal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 1694369776}
   - component: {fileID: 1694369775}
   m_Layer: 0
-  m_Name: tile_temple_23
+  m_Name: Torch Pedestal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2722,12 +2722,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 574
+      value: 177
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 246
+      value: 99.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -2909,7 +2909,7 @@ GameObject:
   - component: {fileID: 2032085885}
   - component: {fileID: 2032085884}
   m_Layer: 0
-  m_Name: tile_temple_23 (2)
+  m_Name: Bomb Pedestal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
