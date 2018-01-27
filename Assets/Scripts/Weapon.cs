@@ -11,6 +11,8 @@ public class Weapon : MonoBehaviour
     public GameObject Stick, Stick2, Gun, NoWeapon, Bullet;
     public int DamageToTake, DartSpeed;
 
+    public float maxTimer = 0.5f;
+
     private float timer;
 
     private bool IsArmed;
@@ -127,7 +129,7 @@ public class Weapon : MonoBehaviour
             }
         }
         //For the dart gun, a timer is made to prevent extreme rapid fire from the user. A dart prefab with attacked collider and physics is created, and is pushed away from the player like a bullet.
-        else if (Weapons[2] && timer >= 0.5f)
+        else if (Weapons[2] && timer >= maxTimer)
         {
             if (player.GetComponent<SpriteRenderer>().flipX)
             {

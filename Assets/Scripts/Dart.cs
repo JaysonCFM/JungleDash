@@ -14,6 +14,11 @@ public class Dart : MonoBehaviour {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(DamageToTake);
             Destroy(gameObject);
         }
+        //Prevents the trigger for zooming out from disabling the dart.
+        else if (collision.gameObject.GetComponent<CameraZoomOut>())
+        {
+            //Acts as a blank comment to prevent destruction.
+        }
         //Everything else will destroy the dart, except for the player.
         else if (!collision.gameObject.GetComponent<Player>())
         {
