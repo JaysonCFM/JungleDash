@@ -8,6 +8,8 @@ public class LoseCollider : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerPrefsManager.SetHealth(0);
+        PlayerPrefsManager.SetLocation(0, 0, 0);
+        PlayerPrefsManager.SetCheckpoint("false");
         PlayerPrefsManager.UnlockLevel(1);
         //PlayerPrefsManager.SetWeapon("No Weapon");
         //PlayerPrefsManager.SetInventory("No Item");

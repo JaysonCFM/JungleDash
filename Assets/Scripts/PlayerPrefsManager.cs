@@ -12,6 +12,13 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string INVENTORY_ITEM = "inventory_item";
     const string DIFFICULTY_SETTING = "difficulty_setting";
 
+    //Player X, Y, and Z saving for checkpoints.
+    const string PLAYER_X = "player_x";
+    const string PLAYER_Y = "player_y";
+    const string PLAYER_Z = "player_z";
+
+    const string HAS_PASSED_CHECKPOINT = "has_passed_checkpoint";
+
     public static bool IsIndestructible;
 
     //Can be called from another script to unlock a level by passing in a number.
@@ -115,5 +122,31 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static float GetDifficulty()
     {
 		return (float)(PlayerPrefs.GetFloat(DIFFICULTY_SETTING));
+    }
+
+    //Input for the player's X, Y, and Z values for checkpoints.
+    public static void SetLocation(float X, float Y, float Z)
+    {
+        PlayerPrefs.SetFloat(PLAYER_X, X);
+        PlayerPrefs.SetFloat(PLAYER_Y, Y);
+        PlayerPrefs.SetFloat(PLAYER_Z, Z);
+    }
+
+    //Returns as a Vector3.
+    public static Vector3 PlayerLocation()
+    {
+        Vector3 location = new Vector3(PlayerPrefs.GetFloat(PLAYER_X), PlayerPrefs.GetFloat(PLAYER_Y), PlayerPrefs.GetFloat(PLAYER_Z));
+
+        return location;
+    }
+
+    public static void SetCheckpoint(string value)
+    {
+        PlayerPrefs.SetString(HAS_PASSED_CHECKPOINT, value);
+    }
+
+    public static string ReturnCheckpoint()
+    {
+        return PlayerPrefs.GetString(HAS_PASSED_CHECKPOINT);
     }
 }

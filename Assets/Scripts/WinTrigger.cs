@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WinCollider : MonoBehaviour {
+public class WinTrigger : MonoBehaviour {
 
     private LevelManager levelManager;
 
@@ -23,8 +23,11 @@ public class WinCollider : MonoBehaviour {
         //Checks to make sure only a player can win.
         if (player.GetComponent<Player>())
         {
-            //If the player DID collide, then it unlocks the next level.
+            //If the player DID collide, then it unlocks the next level, resets their health to 100, and takes them to the map.
             PlayerPrefsManager.UnlockLevel(LevelToUnlock);
+            PlayerPrefsManager.SetHealth(100);
+            PlayerPrefsManager.SetLocation(0, 0, 0);
+            PlayerPrefsManager.SetCheckpoint("false");
             levelManager.LoadLevel("Map");
         }
     }

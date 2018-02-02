@@ -15,6 +15,8 @@ public class LevelCheck : MonoBehaviour {
 
     private float selectInput;
 
+    public float DefaultX, DefaultY, DefaultZ;
+
     // Use this for initialization
     void Start () {
         levelManager = FindObjectOfType<LevelManager>();
@@ -26,7 +28,8 @@ public class LevelCheck : MonoBehaviour {
             levelManager.LoadLevel("Win Screen");
         }
 
-        if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)
+        //TODO: FIX
+        if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber || LevelNumber == 3)
         {
             gameObject.SetActive(true);
         }
@@ -69,6 +72,23 @@ public class LevelCheck : MonoBehaviour {
         text.text = LevelName;
         if (selectInput >= 1)
         {
+            if (LevelNumber == PlayerPrefsManager.GetUnlockedLevel())
+            {
+                if (PlayerPrefsManager.PlayerLocation().x == 0 && PlayerPrefsManager.PlayerLocation().y == 0 && PlayerPrefsManager.PlayerLocation().z == 0)
+                {
+                    PlayerPrefsManager.SetLocation(DefaultX, DefaultY, DefaultZ);
+                    PlayerPrefsManager.SetCheckpoint("true");
+                }
+                else
+                {
+                    PlayerPrefsManager.SetCheckpoint("true");
+                }
+            }
+            else if (LevelNumber < PlayerPrefsManager.GetUnlockedLevel() || LevelNumber > PlayerPrefsManager.GetUnlockedLevel())
+            {
+                PlayerPrefsManager.SetLocation(DefaultX, DefaultY, DefaultZ);
+                PlayerPrefsManager.SetCheckpoint("true");
+            }
             levelManager.LoadLevel(LevelToLoad);
             text.text = "Loading";
         }

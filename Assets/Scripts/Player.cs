@@ -37,6 +37,12 @@ public class Player : MonoBehaviour
             transform.position = LoadShop.LocationToRespawn;
             ExitShop.HasEnteredShopBefore = false;
         }
+
+        if (PlayerPrefsManager.ReturnCheckpoint() == "true")
+        {
+            transform.position = PlayerPrefsManager.PlayerLocation();
+            PlayerPrefsManager.SetCheckpoint("false");
+        }
     }
 
     // Update is called once per frame
@@ -160,6 +166,8 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             PlayerPrefsManager.SetHealth(0);
+            PlayerPrefsManager.SetLocation(0, 0, 0);
+            PlayerPrefsManager.SetCheckpoint("false");
         }
     }
 
