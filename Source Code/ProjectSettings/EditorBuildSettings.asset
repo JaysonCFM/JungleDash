@@ -36,9 +36,6 @@ EditorBuildSettings:
     path: Assets/All Scenes/Level 3.unity
     guid: 3b4729646636f1e43bdd7de07f36d8c2
   - enabled: 1
-    path: Assets/All Scenes/Shop 3.unity
-    guid: 7ce6360a43ee0094096aa3e85e2ba975
-  - enabled: 1
     path: Assets/All Scenes/Casino.unity
     guid: 03c6a5dddcf1d884aa35a7941e3f10fa
   - enabled: 1

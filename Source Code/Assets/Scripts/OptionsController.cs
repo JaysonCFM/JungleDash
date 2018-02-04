@@ -49,13 +49,4 @@ public class OptionsController : MonoBehaviour {
         levelManager.LoadLevel("TitleScreen");
     }
 
-    public void DeleteProgress()
-    {
-        //Deletes everything about the game, and all progress.
-        PlayerPrefsManager.UnlockLevel(0);
-        PlayerPrefsManager.SetWeapon("No Weapon");
-        PlayerPrefsManager.SetInventory("No Items");
-        PlayerPrefsManager.SetHealth(100);
-        print("Game reset.");
-    }
 }

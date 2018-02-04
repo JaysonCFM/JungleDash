@@ -16,8 +16,9 @@ public class StartButton : MonoBehaviour {
     public void StartGame()
     {
         //If the health is too low, it will reset the health back to 100
-        if (PlayerPrefsManager.GetHealth() <= 0)
+        if (PlayerPrefsManager.GetLives() <= 0)
         {
+            PlayerPrefsManager.SetLives(3);
             PlayerPrefsManager.SetHealth(100);
             PlayerPrefsManager.SetWeapon("No Weapon");
             PlayerPrefsManager.SetInventory("No Item");
@@ -29,8 +30,21 @@ public class StartButton : MonoBehaviour {
 
         if (PlayerPrefsManager.GetUnlockedLevel() == 0)
         {
+            PlayerPrefsManager.SetLives(3);
             PlayerPrefsManager.SetHealth(100);
             levelManager.LoadLevel("TutorialScreen");
         }
+    }
+
+    public void DeleteProgress()
+    {
+        //Deletes everything about the game, and all progress.
+        PlayerPrefsManager.UnlockLevel(0);
+        PlayerPrefsManager.SetWeapon("No Weapon");
+        PlayerPrefsManager.SetInventory("No Items");
+        PlayerPrefsManager.SetLives(3);
+        PlayerPrefsManager.SetHealth(100);
+        print("Game reset.");
+        levelManager.LoadLevel(LevelToLoad);
     }
 }

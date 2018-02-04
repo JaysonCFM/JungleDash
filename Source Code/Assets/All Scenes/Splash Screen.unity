@@ -282,7 +282,7 @@ Prefab:
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.size
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4901984512673978, guid: 63ae7edebe314e04eba888ac1900e2a8, type: 2}
       propertyPath: m_LocalPosition.x
@@ -365,7 +365,7 @@ Prefab:
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[10]
       value: 
-      objectReference: {fileID: 8300000, guid: 94dc1c3a251af15448f60406c42825bb, type: 3}
+      objectReference: {fileID: 8300000, guid: c0bfd31614f5145678601b89483a3eeb, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[11]
@@ -673,8 +673,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 927304275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 569, y: 291, z: 0}
-  m_LocalScale: {x: 1.4225, y: 1.4225, z: 1.4225}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_Children:
   - {fileID: 131825519}
   - {fileID: 386071056}

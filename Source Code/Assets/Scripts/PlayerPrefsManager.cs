@@ -11,6 +11,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string WEAPON_SELECTED = "weapon_selected";
     const string INVENTORY_ITEM = "inventory_item";
     const string DIFFICULTY_SETTING = "difficulty_setting";
+    const string PLAYER_LIVES = "player_lives";
 
     //Player X, Y, and Z saving for checkpoints.
     const string PLAYER_X = "player_x";
@@ -73,6 +74,26 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static int GetHealth()
     {
         return PlayerPrefs.GetInt(PLAYER_HEALTH);
+    }
+
+    public static void SetLives(int Lives)
+    {
+        PlayerPrefs.SetInt(PLAYER_LIVES, Lives);
+    }
+
+    public static void SubtractLives(int SubtractBy)
+    {
+        PlayerPrefs.SetInt(PLAYER_LIVES, GetLives() - SubtractBy);
+    }
+
+    public static void AddLives(int AddBy)
+    {
+        PlayerPrefs.SetInt(PLAYER_LIVES, GetLives() - AddBy);
+    }
+
+    public static int GetLives()
+    {
+        return PlayerPrefs.GetInt(PLAYER_LIVES);
     }
 
     public static void SetMasterVolume(float volume)

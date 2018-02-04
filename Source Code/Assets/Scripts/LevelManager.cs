@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour {
 
     public float autoLoadNextLevelAfter;
 
+    //Allows for automatic scene timing like the splashscreen or a cutscene.
     private void Start()
     {
         if (autoLoadNextLevelAfter <= 0)
@@ -19,17 +20,20 @@ public class LevelManager : MonoBehaviour {
         }
     }
 
+    //Called on by other scripts to load another scene.
     public void LoadLevel(string name)
     {
         Debug.Log("Level load requested for: " + name);
         SceneManager.LoadScene(name);
     }
 
+    //Used to exit the game
     public void QuitRequest()
     {
         Application.Quit();
     }
 
+    //Loading a level that comes next in sequential build order.
     public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

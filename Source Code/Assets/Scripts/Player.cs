@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     private bool grounded, jumping;
     private AudioSource audioSource;
     private LevelManager levelManager;
-    private int currentHealth;
     private Inventory inventory;
 
     public float jumpPower;
@@ -29,7 +28,6 @@ public class Player : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
-        currentHealth = PlayerPrefsManager.GetHealth();
         levelManager = FindObjectOfType<LevelManager>();
 
         if (ExitShop.HasEnteredShopBefore == true)
@@ -53,15 +51,24 @@ public class Player : MonoBehaviour
         float verticalInput = Input.GetAxisRaw("Vertical");
         float jumpInput = Input.GetAxisRaw("Jump");
         sprintInput = Input.GetAxisRaw("Sprint");
-        currentHealth = PlayerPrefsManager.GetHealth();
 
         //If the MapCharacter boolean is false (Which in most cases it will be, it's just to change some movement on the map instead of creating a seperate class)
         if (!IsMapCharacter)
         {
-            if (currentHealth <= 0)
+            if (PlayerPrefsManager.GetLives() <= 0)
             {
-                PlayerPrefsManager.UnlockLevel(1);
+                PlayerPrefsManager.SetHealth(0);
+                PlayerPrefsManager.SetWeapon("No Weapon");
+                PlayerPrefsManager.SetInventory("No Item");
                 levelManager.LoadLevel("Game Over Screen");
+                PlayerPrefsManager.SetLocation(0, 0, 0);
+            }
+
+            if (PlayerPrefsManager.GetHealth() <= 0)
+            {
+                PlayerPrefsManager.SetHealth(100);
+                transform.position = PlayerPrefsManager.PlayerLocation();
+                PlayerPrefsManager.SubtractLives(1);
             }
 
             Movement(horizontalInput);
@@ -72,6 +79,12 @@ public class Player : MonoBehaviour
                 grounded = false;
                 jumping = true;
                 rb.AddForce(Vector2.up * jumpPower);
+            }
+
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                PlayerPrefsManager.SetLives(0);
+                PlayerPrefsManager.SetLocation(0, 0, 0);
             }
         }
 
@@ -160,14 +173,6 @@ public class Player : MonoBehaviour
         } else
         {
             moveSpeed = 5;
-        }
-
-        //Suicide key
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            PlayerPrefsManager.SetHealth(0);
-            PlayerPrefsManager.SetLocation(0, 0, 0);
-            PlayerPrefsManager.SetCheckpoint("false");
         }
     }
 
