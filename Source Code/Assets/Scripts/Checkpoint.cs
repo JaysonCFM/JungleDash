@@ -13,7 +13,7 @@ public class Checkpoint : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<Player>())
+        if (collision.gameObject.GetComponent<Player>() && PlayerPrefsManager.GetUnlockedLevel() == LevelCheck.CheckpointLevelNumber)
         {
             SetLocation();
         }

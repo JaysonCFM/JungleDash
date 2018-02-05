@@ -11,6 +11,8 @@ public class LevelCheck : MonoBehaviour {
     public string LevelName;
     public int LevelNumber;
 
+    public static int CheckpointLevelNumber;
+
     private bool IsOverLevel;
 
     private float selectInput;
@@ -28,8 +30,7 @@ public class LevelCheck : MonoBehaviour {
             levelManager.LoadLevel("Win Screen");
         }
 
-        //TODO: FIX
-        if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber || LevelNumber == 3)
+        if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)
         {
             gameObject.SetActive(true);
         }
@@ -37,6 +38,8 @@ public class LevelCheck : MonoBehaviour {
         {
             gameObject.SetActive(false);
         }
+
+        
     }
 
     private void Update()
@@ -89,6 +92,8 @@ public class LevelCheck : MonoBehaviour {
                 PlayerPrefsManager.SetLocation(DefaultX, DefaultY, DefaultZ);
                 PlayerPrefsManager.SetCheckpoint("true");
             }
+
+            CheckpointLevelNumber = LevelNumber;
             levelManager.LoadLevel(LevelToLoad);
             text.text = "Loading";
         }

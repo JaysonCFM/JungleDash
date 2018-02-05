@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
         if (PlayerPrefsManager.ReturnCheckpoint() == "true")
         {
             transform.position = PlayerPrefsManager.PlayerLocation();
+            PlayerPrefsManager.SetLocation(0, 0, 0);
             PlayerPrefsManager.SetCheckpoint("false");
         }
     }

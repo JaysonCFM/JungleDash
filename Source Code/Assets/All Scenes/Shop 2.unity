@@ -1407,7 +1407,7 @@ MonoBehaviour:
   Cost: 10
   ItemName: Blood Cross
   ItemDescription: 'Blood Cross : 10'
-  text: {fileID: 0}
+  text: {fileID: 1530636335}
   IsItem: 1
   IsWeapon: 0
 --- !u!61 &700345891
@@ -1559,7 +1559,7 @@ MonoBehaviour:
   Cost: 15
   ItemName: Stick 2
   ItemDescription: 'Upgraded Stick : 15'
-  text: {fileID: 0}
+  text: {fileID: 1530636335}
   IsItem: 0
   IsWeapon: 1
 --- !u!61 &782204463
@@ -2401,12 +2401,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 433.19968
+      value: 653.1997
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 311.3757
+      value: 434.8757
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -2626,7 +2626,7 @@ MonoBehaviour:
   Cost: 15
   ItemName: Bomb
   ItemDescription: 'Bomb : 15'
-  text: {fileID: 0}
+  text: {fileID: 1530636335}
   IsItem: 1
   IsWeapon: 0
 --- !u!61 &1511642165
@@ -2916,7 +2916,7 @@ MonoBehaviour:
   Cost: 5
   ItemName: Torch
   ItemDescription: 'Torch : 5'
-  text: {fileID: 0}
+  text: {fileID: 1530636335}
   IsItem: 1
   IsWeapon: 0
 --- !u!61 &1575240069
