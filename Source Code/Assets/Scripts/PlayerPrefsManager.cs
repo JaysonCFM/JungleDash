@@ -88,7 +88,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     public static void AddLives(int AddBy)
     {
-        PlayerPrefs.SetInt(PLAYER_LIVES, GetLives() - AddBy);
+        PlayerPrefs.SetInt(PLAYER_LIVES, GetLives() + AddBy);
     }
 
     public static int GetLives()
@@ -152,6 +152,7 @@ public class PlayerPrefsManager : MonoBehaviour {
         PlayerPrefs.SetFloat(PLAYER_Y, Y);
         PlayerPrefs.SetFloat(PLAYER_Z, Z);
     }
+		
 
     //Returns as a Vector3.
     public static Vector3 PlayerLocation()

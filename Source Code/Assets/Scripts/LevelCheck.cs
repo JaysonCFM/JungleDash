@@ -25,6 +25,10 @@ public class LevelCheck : MonoBehaviour {
         text = FindObjectOfType<Text>();
         text.text = "";
 
+//		DefaultX = PlayerPrefs.GetFloat (PLAYER_X); 
+//		DefaultY = PlayerPrefs.GetFloat (PLAYER_Y);
+//		DefaultZ = PlayerPrefs.GetFloat(PLAYER_Z);
+
         if (PlayerPrefsManager.GetUnlockedLevel() == 26)
         {
             levelManager.LoadLevel("Win Screen");

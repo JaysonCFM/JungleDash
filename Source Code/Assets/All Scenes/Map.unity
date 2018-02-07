@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6abca468fef983d4f9b25dbc3e7bd676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: Level 3
+  LevelToLoad: Level 3 main scene
   LevelName: '3: Skyward Bound'
   LevelNumber: 3
   DefaultX: -11858.81

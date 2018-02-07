@@ -39,7 +39,6 @@ public class Player : MonoBehaviour
         if (PlayerPrefsManager.ReturnCheckpoint() == "true")
         {
             transform.position = PlayerPrefsManager.PlayerLocation();
-            PlayerPrefsManager.SetLocation(0, 0, 0);
             PlayerPrefsManager.SetCheckpoint("false");
         }
     }
@@ -58,18 +57,16 @@ public class Player : MonoBehaviour
         {
             if (PlayerPrefsManager.GetLives() <= 0)
             {
-                PlayerPrefsManager.SetHealth(0);
-                PlayerPrefsManager.SetWeapon("No Weapon");
-                PlayerPrefsManager.SetInventory("No Item");
+                //PlayerPrefsManager.SetHealth(0);
                 levelManager.LoadLevel("Game Over Screen");
                 PlayerPrefsManager.SetLocation(0, 0, 0);
             }
 
             if (PlayerPrefsManager.GetHealth() <= 0)
             {
+				PlayerPrefsManager.SubtractLives(1);
                 PlayerPrefsManager.SetHealth(100);
                 transform.position = PlayerPrefsManager.PlayerLocation();
-                PlayerPrefsManager.SubtractLives(1);
             }
 
             Movement(horizontalInput);

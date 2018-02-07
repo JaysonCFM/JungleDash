@@ -14,7 +14,7 @@ public class LoseCollider : MonoBehaviour {
     //When the player falls off the bottom, they hit a trigger that will force their health to 0 and kill the player.
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerPrefsManager.SubtractLives(1);
+		PlayerPrefsManager.SetHealth(0);
         player.transform.position = PlayerPrefsManager.PlayerLocation();
     }
 }
