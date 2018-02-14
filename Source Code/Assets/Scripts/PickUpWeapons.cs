@@ -16,7 +16,9 @@ public class PickUpWeapons : MonoBehaviour {
             //Prevents another pickup of the weapon because it becomes disabled unless it's a human.
             if (!IsArcheologist)
             {
-                gameObject.SetActive(false);
+				if (WeaponName == "Gun") {
+					gameObject.SetActive(false);
+				}
             }
         }
     }

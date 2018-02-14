@@ -22,17 +22,15 @@ public class TextAnnouncer : MonoBehaviour {
         }
 
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-
-        IsOnPlatform = true;
-
-
-    }
-    private void TriggerStay2D(Collider2D collision)
-    {
-        IsOnPlatform = true;
-    }
+	//isOnPlatform will be true when player enters and remains on platform
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		IsOnPlatform = true;
+	}
+	private void TriggerStay2D(Collider2D collision)
+	{
+		IsOnPlatform = true;
+	}
     // IsOnPlatform will only be used when the player is on the platform which will then allow it to draw
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -43,6 +41,5 @@ public class TextAnnouncer : MonoBehaviour {
     private void OnPlatForm()
     {
         text.text = textString;
-        
     }
 }

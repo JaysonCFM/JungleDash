@@ -21,6 +21,8 @@ public class BuyingSystem : MonoBehaviour {
     public bool IsItem, IsWeapon;
 
     private float selectInput;
+
+    public GameObject Gun;
    
     
     private void Update()
@@ -36,14 +38,20 @@ public class BuyingSystem : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //when you hit the trigger on the door, then it sets IsOverDoor true
-        IsOverItem = true;
+        if (collision.gameObject.GetComponent<Player>())
+        {
+            //when you hit the trigger on the door, then it sets IsOverDoor true
+            IsOverItem = true;
+        }
 
     }
     //lets you only buy if you are on the pedstool
     private void OnTriggerStay2D(Collider2D collision)
     {
-        IsOverItem = true;
+        if (collision.gameObject.GetComponent<Player>())
+        {
+            IsOverItem = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     //allows you to buy from when only on the platform
@@ -76,6 +84,10 @@ public class BuyingSystem : MonoBehaviour {
             else if (IsWeapon)
             {
                 PlayerPrefsManager.SetWeapon(ItemName);
+            }
+            else if (ItemName == "Rapid Fire")
+            {
+                PlayerPrefsManager.SetRapidFire("true");
             }
             itemCounter++;
         }

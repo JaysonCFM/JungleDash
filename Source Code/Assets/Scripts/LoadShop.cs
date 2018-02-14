@@ -26,8 +26,9 @@ public class LoadShop : MonoBehaviour {
     }
     private void Update()
     {
+		//checks for spacebar input
         selectInput = Input.GetAxisRaw("Submit");
-
+		//loads shop if spacebar is pressed
         if (IsOverDoor)
         {
             EnterShop();
@@ -68,9 +69,8 @@ public class LoadShop : MonoBehaviour {
             {
                 levelManager.LoadLevel("Shop 3");
             }
-
+		//declare and assign previous scene to return to when exiting shop
         Scene ShopName = SceneManager.GetActiveScene();
-
         PreviousLevel = ShopName.name;
 
         }

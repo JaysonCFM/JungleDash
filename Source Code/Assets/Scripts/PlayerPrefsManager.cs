@@ -12,6 +12,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string INVENTORY_ITEM = "inventory_item";
     const string DIFFICULTY_SETTING = "difficulty_setting";
     const string PLAYER_LIVES = "player_lives";
+    const string IS_RAPID_FIRE = "is_rapid_fire";
 
     //Player X, Y, and Z saving for checkpoints.
     const string PLAYER_X = "player_x";
@@ -145,14 +146,13 @@ public class PlayerPrefsManager : MonoBehaviour {
 		return (float)(PlayerPrefs.GetFloat(DIFFICULTY_SETTING));
     }
 
-    //Input for the player's X, Y, and Z values for checkpoints.
+    //Input for the player's X, Y, and Z values for checkpoints etc.
     public static void SetLocation(float X, float Y, float Z)
     {
         PlayerPrefs.SetFloat(PLAYER_X, X);
         PlayerPrefs.SetFloat(PLAYER_Y, Y);
         PlayerPrefs.SetFloat(PLAYER_Z, Z);
     }
-		
 
     //Returns as a Vector3.
     public static Vector3 PlayerLocation()
@@ -170,5 +170,16 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static string ReturnCheckpoint()
     {
         return PlayerPrefs.GetString(HAS_PASSED_CHECKPOINT);
+    }
+
+    //Enables rapid fire of the gun
+    public static void SetRapidFire(string Value)
+    {
+        PlayerPrefs.SetString(IS_RAPID_FIRE, Value);
+    }
+
+    public static string ReturnRapidFire()
+    {
+        return PlayerPrefs.GetString(IS_RAPID_FIRE);
     }
 }

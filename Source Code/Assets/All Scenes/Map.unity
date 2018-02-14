@@ -412,8 +412,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220461106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 960, y: 540, z: 0}
-  m_LocalScale: {x: 2.078461, y: 2.078461, z: 2.078461}
+  m_LocalPosition: {x: 766, y: 267.5, z: 0}
+  m_LocalScale: {x: 1.3067293, y: 1.3067293, z: 1.3067293}
   m_Children:
   - {fileID: 148482580}
   - {fileID: 390124714}
@@ -611,7 +611,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546453047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalPosition: {x: 766, y: 267.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1327897222}
@@ -1664,6 +1664,7 @@ MonoBehaviour:
   jumpPower: 0
   moveSpeed: 5
   IsMapCharacter: 1
+  IsLevel3BossPlayer: 0
   sprintSpeed: 5
   Sounds:
   - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
@@ -1825,7 +1826,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697143292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.000015258789, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 916506629}
@@ -1945,7 +1946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelToLoad: Level 2
-  LevelName: '2: Cave of Asceneion'
+  LevelName: '2: Cave of Ascension'
   LevelNumber: 2
   DefaultX: -179.96
   DefaultY: 39.93

@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
 
     public float jumpPower;
     public float moveSpeed;
-    public bool IsMapCharacter;
+    public bool IsMapCharacter, IsLevel3BossPlayer;
     public int sprintSpeed = 8;
 
     private float sprintInput;
@@ -30,12 +30,19 @@ public class Player : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         levelManager = FindObjectOfType<LevelManager>();
 
+		//puts player back where they were before entering the shop
         if (ExitShop.HasEnteredShopBefore == true)
         {
             transform.position = LoadShop.LocationToRespawn;
             ExitShop.HasEnteredShopBefore = false;
         }
-
+		//puts the player back outside the arena in the main level 3 scene after they kill the griffin
+		if (ExitArena.GriffinIsDead == true) {
+			transform.position = LoadArena.LocationToReturn;
+			//grounded = true;
+			//transform.position += 2f;
+		}
+		//sends player back to last checkpoint
         if (PlayerPrefsManager.ReturnCheckpoint() == "true")
         {
             transform.position = PlayerPrefsManager.PlayerLocation();
@@ -55,7 +62,7 @@ public class Player : MonoBehaviour
         //If the MapCharacter boolean is false (Which in most cases it will be, it's just to change some movement on the map instead of creating a seperate class)
         if (!IsMapCharacter)
         {
-            if (PlayerPrefsManager.GetLives() <= 0)
+            if (PlayerPrefsManager.GetLives() < 0)
             {
                 //PlayerPrefsManager.SetHealth(0);
                 levelManager.LoadLevel("Game Over Screen");
@@ -66,7 +73,14 @@ public class Player : MonoBehaviour
             {
 				PlayerPrefsManager.SubtractLives(1);
                 PlayerPrefsManager.SetHealth(100);
-                transform.position = PlayerPrefsManager.PlayerLocation();
+                if (!IsLevel3BossPlayer)
+                {
+                    transform.position = PlayerPrefsManager.PlayerLocation();
+                }
+                else if (IsLevel3BossPlayer)
+                {
+                    transform.position = new Vector3(-58.92968f, -49.7157f, 0f);
+                }
             }
 
             Movement(horizontalInput);
@@ -77,12 +91,6 @@ public class Player : MonoBehaviour
                 grounded = false;
                 jumping = true;
                 rb.AddForce(Vector2.up * jumpPower);
-            }
-
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                PlayerPrefsManager.SetLives(0);
-                PlayerPrefsManager.SetLocation(0, 0, 0);
             }
         }
 

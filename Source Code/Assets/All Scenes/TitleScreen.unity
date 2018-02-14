@@ -233,7 +233,7 @@ MonoBehaviour:
     m_NormalColor: {r: 0.11724138, g: 1, b: 0, a: 1}
     m_HighlightedColor: {r: 0, g: 0.6544118, b: 0.03159235, a: 1}
     m_PressedColor: {r: 0.03569984, g: 0.4705882, b: 0, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.14700207, g: 0.6544118, b: 0.10586072, a: 0.602}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -245,7 +245,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 259288536}
   m_OnClick:
     m_PersistentCalls:
@@ -313,6 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb20b218ce5cd264a8a43c9daeabd5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadButton: {fileID: 259288533}
   LevelToLoad: Map
 --- !u!1 &503238011
 GameObject:
@@ -396,8 +397,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503238011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 960, y: 540, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 474, y: 266.5, z: 0}
+  m_LocalScale: {x: 0.740625, y: 0.740625, z: 0.740625}
   m_Children:
   - {fileID: 1840283353}
   - {fileID: 259288534}
@@ -542,6 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb20b218ce5cd264a8a43c9daeabd5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadButton: {fileID: 259288533}
   LevelToLoad: TutorialScreen
 --- !u!114 &870295591
 MonoBehaviour:
@@ -592,6 +594,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 259288535}
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -658,7 +671,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1586191131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.03003, y: 179.82, z: 0}
+  m_LocalPosition: {x: 105.03003, y: 179.65121, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}
@@ -1098,7 +1111,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1944029567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 201.87, y: 281.85, z: 0}
+  m_LocalPosition: {x: 201.87, y: 281.6812, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}

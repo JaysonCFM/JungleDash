@@ -71,6 +71,17 @@ public class Weapon : MonoBehaviour
             {
                 gameObject.transform.rotation = Quaternion.Euler(0, 0, 45);
             }
+
+            if (PlayerPrefsManager.ReturnRapidFire() == "true")
+            {
+                DartSpeed = 15;
+                maxTimer = 0.25f;
+            }
+            else
+            {
+                DartSpeed = 10;
+                maxTimer = 0.5f;
+            }
         }
         else if (Weapons[3])
         {
