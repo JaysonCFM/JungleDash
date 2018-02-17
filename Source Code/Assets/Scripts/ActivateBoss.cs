@@ -12,6 +12,8 @@ public class ActivateBoss : MonoBehaviour {
     private Player player;
 	//declare boolean to contain griffin-specific code
     public bool isToActivateGriffin;
+    //Restore save bool
+    public bool RestoreSaveBattle;
 
     private void Start()
     {
@@ -23,7 +25,7 @@ public class ActivateBoss : MonoBehaviour {
     private void Update()
     {
 		//condition for after passing collider
-        if (HasPlayerPassed == true && player.transform.position.x > transform.position.x)
+        if (HasPlayerPassed == true && player.transform.position.x > transform.position.x || HasPlayerPassed && RestoreSaveBattle)
         {
 			//start boss fight animation if boss object exists
 			if (boss) {
@@ -40,6 +42,23 @@ public class ActivateBoss : MonoBehaviour {
     private void OnTriggerExit2D(Collider2D collision)
 	{
         if (collision.gameObject.CompareTag("Player"))
+        {
+            HasPlayerPassed = true;
+        }
+    }
+
+    //Used for restoring the last save in a boss battle.
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (RestoreSaveBattle)
+        {
+            HasPlayerPassed = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (RestoreSaveBattle)
         {
             HasPlayerPassed = true;
         }

@@ -314,7 +314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LoadButton: {fileID: 259288533}
-  LevelToLoad: Map
+  LevelToLoad: 
+  IsLastSaveButton: 1
 --- !u!1 &503238011
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,8 +398,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503238011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 294.5, y: 165.5, z: 0}
-  m_LocalScale: {x: 0.46015626, y: 0.46015626, z: 0.46015626}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1840283353}
   - {fileID: 259288534}
@@ -545,6 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadButton: {fileID: 259288533}
   LevelToLoad: TutorialScreen
+  IsLastSaveButton: 0
 --- !u!114 &870295591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -671,7 +673,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1586191131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.03003, y: 179.48044, z: 0}
+  m_LocalPosition: {x: 105.03003, y: 179.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}
@@ -1111,7 +1113,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1944029567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 201.87, y: 281.51044, z: 0}
+  m_LocalPosition: {x: 201.87, y: 281.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 503238015}

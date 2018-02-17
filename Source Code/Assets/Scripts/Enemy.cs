@@ -8,26 +8,8 @@ public class Enemy : MonoBehaviour {
 	//declare integer for amount of damage dealt by enemy attack
     public int DamageToDeal;
 
-	//declare boolean to lock code specific for griffin boss enemy 
-    public bool Griffin;
-	//declare 3-tier health system exclusive to griffin boss
-    public int Health, MediumHealth, HardHealth;
-
-    private void Start()
-    {
-        //Griffin's health changes based on difficulty, this sets it properly.
-        if (Griffin)
-        {
-            if (PlayerPrefsManager.GetDifficulty() == 1f)
-            {
-                Health = MediumHealth;
-            }
-            if (PlayerPrefsManager.GetDifficulty() >= 2f)
-            {
-                Health = HardHealth;
-            }
-        }
-    }
+    //Enemy's health
+    public int Health;
 
     //Death of enemy
     private void Update()

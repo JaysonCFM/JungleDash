@@ -9,6 +9,9 @@ public class StartButton : MonoBehaviour {
     public GameObject LoadButton;
     public string LevelToLoad;
 
+    //Bool for using a button
+    public bool IsLastSaveButton;
+
 	// Use this for initialization
 	void Start () {
 		//assign level manager 
@@ -28,6 +31,12 @@ public class StartButton : MonoBehaviour {
     //Starts game
     public void StartGame()
     {
+        if (IsLastSaveButton)
+        {
+            LevelToLoad = PlayerPrefsManager.GetLevelName();
+			PlayerPrefsManager.SetCheckpoint ("true");
+
+        }
         //If the health is below zero, it will reset the health back to 100
         if (PlayerPrefsManager.GetLives() <= 0)
         {
@@ -53,11 +62,13 @@ public class StartButton : MonoBehaviour {
     {
         //Deletes everything about the game, and all progress.
         PlayerPrefsManager.UnlockLevel(0);
+        PlayerPrefsManager.SetLocation(-977.1f, -7.94f, 0f);
         PlayerPrefsManager.SetWeapon("No Weapon");
         PlayerPrefsManager.SetInventory("No Items");
         PlayerPrefsManager.SetLives(3);
         PlayerPrefsManager.SetHealth(100);
         PlayerPrefsManager.SetRapidFire("false");
+        PlayerPrefsManager.SetCheckpoint("true");
         LoadButton.GetComponent<Button>().interactable = false;
         print("Game reset.");
         levelManager.LoadLevel(LevelToLoad);

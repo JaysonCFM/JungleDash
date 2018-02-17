@@ -25,10 +25,15 @@ public class WinTrigger : MonoBehaviour {
         if (player.GetComponent<Player>())
         {
             //If the player DID collide, then it unlocks the next level and takes them to the map.
-            PlayerPrefsManager.UnlockLevel(LevelToUnlock);
-			PlayerPrefsManager.SetLocation(0, 0, 0);
+            UnlockLevel(LevelToUnlock);
+            PlayerPrefsManager.SetLocation(0, 0, 0);
             PlayerPrefsManager.SetCheckpoint("false");
             levelManager.LoadLevel("Map");
         }
+    }
+
+    public void UnlockLevel(int NumToUnlock)
+    {
+        PlayerPrefsManager.UnlockLevel(NumToUnlock);
     }
 }

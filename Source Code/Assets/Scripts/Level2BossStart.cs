@@ -46,10 +46,9 @@ public class Level2BossStart : MonoBehaviour
 
     }
 
-    //When triggered, the boxes will disable and the player can leave.
+    //When triggered, the box will disable and the player can leave.
     public void FreePlayer()
     {
-        BarrierOne.SetActive(false);
         BarrierTwo.SetActive(false);
     }
 

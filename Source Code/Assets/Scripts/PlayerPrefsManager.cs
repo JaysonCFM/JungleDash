@@ -7,7 +7,7 @@ public class PlayerPrefsManager : MonoBehaviour {
     //Creates a key inside of the playerprefs (Storage for Unity).
     const string LEVEL_KEY = "level_unlocked_";
 	//player health variable declaration
-    const string PLAYER_HEALTH = "player_health_";
+    public const string PLAYER_HEALTH = "player_health_";
 	//volume level variable declaration
     public const string MASTER_VOLUME_KEY = "master_volume";
 	//weapon selection variable declaration
@@ -20,6 +20,8 @@ public class PlayerPrefsManager : MonoBehaviour {
     const string PLAYER_LIVES = "player_lives";
 	//rapid fire upgrade variable declaration (for bamboo blowgun weapon)
     const string IS_RAPID_FIRE = "is_rapid_fire";
+    //Stores the name of the level the checkpoint was saved on.
+    const string CHECKPOINT_LEVEL = "checkpoint_level";
 
     //Player X, Y, and Z saving for checkpoints.
     const string PLAYER_X = "player_x";
@@ -29,8 +31,8 @@ public class PlayerPrefsManager : MonoBehaviour {
 	//declare checker for player colliding with a checkpoint
     const string HAS_PASSED_CHECKPOINT = "has_passed_checkpoint";
 
-	//declare booleans for invincibility (when blood cross item is active) and level 3 boss scene
-    public static bool IsIndestructible, IsLevel3BossPlayer;
+	//declare booleans for invincibility (when blood cross item is active)
+    public static bool IsIndestructible;
 
     //Can be called from another script to unlock a level by passing in a number.
     public static void UnlockLevel(int level)
@@ -47,28 +49,24 @@ public class PlayerPrefsManager : MonoBehaviour {
     //Each difficulty increment doubles the amount of damage you take when playing.
     public static void DealDamage(int damageGiven)
     {
-		//checks for the blood cross being activated
+        //checks for the blood cross being activated
         if (!IsIndestructible)
         {
             if (GetDifficulty() == 0f)
             {
-				//easy (default damage)
+                //easy (default damage)
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
             }
             else if (GetDifficulty() == 1f)
             {
-				//medium (double damage)
+                //medium (double damage)
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 2));
             }
             else if (GetDifficulty() == 2f)
             {
-				//hard (quadruple damage)
+                 //hard (quadruple damage)
                 PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - (damageGiven * 4));
             }
-        } 
-        else if (IsLevel3BossPlayer)
-        {
-            PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - damageGiven);
         }
 		else
         {
@@ -81,6 +79,12 @@ public class PlayerPrefsManager : MonoBehaviour {
     {
         PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() + health);
     }
+
+	//subtracts from health points
+	public static void SubtractHealth(int health)
+	{
+		PlayerPrefs.SetInt(PLAYER_HEALTH, GetHealth() - health);
+	}
 
 	//sets # of health points
     public static void SetHealth(int health)
@@ -212,5 +216,17 @@ public class PlayerPrefsManager : MonoBehaviour {
     public static string ReturnRapidFire()
     {
         return PlayerPrefs.GetString(IS_RAPID_FIRE);
+    }
+
+    //Sets name for checkpoint
+    public static void SetLevelName(string Name)
+    {
+        PlayerPrefs.SetString(CHECKPOINT_LEVEL, Name);
+    }
+
+    //Return name
+    public static string GetLevelName()
+    {
+        return PlayerPrefs.GetString(CHECKPOINT_LEVEL);
     }
 }

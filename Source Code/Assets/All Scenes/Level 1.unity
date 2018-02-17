@@ -10398,6 +10398,72 @@ Transform:
   m_Father: {fileID: 953145956}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &699294019
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1584809192}
+    m_Modifications:
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -784.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 61515005628452316, guid: e33d95df77c274948a232014b7988269,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310600897994008, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_Name
+      value: CEILING 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 61515005628452316, guid: e33d95df77c274948a232014b7988269,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.21249999
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114504347316888676, guid: e33d95df77c274948a232014b7988269, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: e33d95df77c274948a232014b7988269, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &699294020 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269,
+    type: 2}
+  m_PrefabInternal: {fileID: 699294019}
 --- !u!1 &700852573
 GameObject:
   m_ObjectHideFlags: 0
@@ -10629,6 +10695,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b899cc6e79370342b61b1a85822a5c6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &706324716 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1433289721563958, guid: 8b899cc6e79370342b61b1a85822a5c6,
+    type: 2}
+  m_PrefabInternal: {fileID: 706324715}
+--- !u!114 &706324717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 706324716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5040c09511652646a6f81ebcf3e45fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AliveText: 
+  DeathText: Remember, your stick can attack spikes without actually touching them.
+  text: {fileID: 418216408}
+  Enemy: {fileID: 626579193}
 --- !u!1 &707192495
 GameObject:
   m_ObjectHideFlags: 0
@@ -16708,6 +16794,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9b7d10cf17b85a40855928a828285f2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1017449042 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1253267623726028, guid: b9b7d10cf17b85a40855928a828285f2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1017449041}
+--- !u!114 &1017449043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1017449042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5040c09511652646a6f81ebcf3e45fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AliveText: 
+  DeathText: Remember, your stick can attack spikes without actually touching them.
+  text: {fileID: 418216408}
+  Enemy: {fileID: 626579193}
 --- !u!1001 &1025395423
 Prefab:
   m_ObjectHideFlags: 0
@@ -21226,10 +21332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 20
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!82 &1357503443
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22489,6 +22592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 1357503435}
   isToActivateGriffin: 0
+  RestoreSaveBattle: 0
 --- !u!61 &1440312035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24629,6 +24733,8 @@ Transform:
   - {fileID: 1176096436}
   - {fileID: 331442027}
   - {fileID: 904658871}
+  - {fileID: 2126144335}
+  - {fileID: 699294020}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26672,8 +26778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AliveText: From a safe distance, left click to attack the spike trap with your stick!
-  DeathText: Good job! You can attack spikes without actually having the stick make
-    contact.
+  DeathText: Good job!
   text: {fileID: 418216408}
   Enemy: {fileID: 626579193}
 --- !u!1 &1693715055
@@ -28655,6 +28760,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c5fff38d8ff63a44b2cab32bb609caa, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1847771450 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1099096228051650, guid: 5c5fff38d8ff63a44b2cab32bb609caa,
+    type: 2}
+  m_PrefabInternal: {fileID: 1847771449}
+--- !u!114 &1847771451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1847771450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5040c09511652646a6f81ebcf3e45fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AliveText: 
+  DeathText: Remember, your stick can attack spikes without actually touching them.
+  text: {fileID: 418216408}
+  Enemy: {fileID: 626579193}
 --- !u!1 &1859425808
 GameObject:
   m_ObjectHideFlags: 0
@@ -31200,12 +31325,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 960
+      value: 294
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 540
+      value: 165.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -32945,6 +33070,72 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b899cc6e79370342b61b1a85822a5c6, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &2126144334
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1584809192}
+    m_Modifications:
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -919.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 61515005628452316, guid: e33d95df77c274948a232014b7988269,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310600897994008, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_Name
+      value: CEILING 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61515005628452316, guid: e33d95df77c274948a232014b7988269,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.21249992
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114504347316888676, guid: e33d95df77c274948a232014b7988269, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: e33d95df77c274948a232014b7988269, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2126144335 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269,
+    type: 2}
+  m_PrefabInternal: {fileID: 2126144334}
 --- !u!1 &2131853049
 GameObject:
   m_ObjectHideFlags: 0

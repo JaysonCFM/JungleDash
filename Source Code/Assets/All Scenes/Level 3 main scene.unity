@@ -608,7 +608,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4099671595726584, guid: 41c04fd914fdddc4ea5e64ed98e373fa, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 212346030828912052, guid: 41c04fd914fdddc4ea5e64ed98e373fa,
         type: 2}
@@ -1899,10 +1899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!1001 &424646706
 Prefab:
   m_ObjectHideFlags: 0
@@ -3864,6 +3861,7 @@ Transform:
   m_Children:
   - {fileID: 1091144517}
   - {fileID: 1377540944}
+  - {fileID: 1386344492}
   - {fileID: 1206107597}
   - {fileID: 1751327008}
   m_Father: {fileID: 137323121}
@@ -4988,10 +4986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!1001 &1010106462
 Prefab:
   m_ObjectHideFlags: 0
@@ -5666,7 +5661,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4099671595726584, guid: 41c04fd914fdddc4ea5e64ed98e373fa, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 212346030828912052, guid: 41c04fd914fdddc4ea5e64ed98e373fa,
         type: 2}
@@ -5871,10 +5866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!1001 &1231609978
 Prefab:
   m_ObjectHideFlags: 0
@@ -6101,10 +6093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!1001 &1274770754
 Prefab:
   m_ObjectHideFlags: 0
@@ -6854,6 +6843,60 @@ Transform:
   m_PrefabParentObject: {fileID: 4920343367563752, guid: e33d95df77c274948a232014b7988269,
     type: 2}
   m_PrefabInternal: {fileID: 1377540943}
+--- !u!1 &1386344491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1386344492}
+  - component: {fileID: 1386344493}
+  m_Layer: 0
+  m_Name: SkyWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1386344492
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386344491}
+  m_LocalRotation: {x: -0, y: -0, z: 0.707243, w: 0.7069706}
+  m_LocalPosition: {x: 5.6, y: 18.2, z: -9.393165}
+  m_LocalScale: {x: 3.805469, y: 5.781147, z: 2.5627456}
+  m_Children: []
+  m_Father: {fileID: 795075428}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.022}
+--- !u!61 &1386344493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386344491}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.682251, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.57714844, y: 8.96}
+  m_EdgeRadius: 0
 --- !u!1001 &1391118713
 Prefab:
   m_ObjectHideFlags: 0
@@ -6940,10 +6983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!1 &1402611563 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1441780600352278, guid: ee4c33699f5bebe43802f4b63f840700,
@@ -7089,12 +7129,12 @@ Prefab:
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 206.5
+      value: 212.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 116
+      value: 119.5
       objectReference: {fileID: 0}
     - target: {fileID: 224146728292405110, guid: 59fa80915dca3ed4d8fd969532c9b2da,
         type: 2}
@@ -10911,10 +10951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageToDeal: 1
-  Griffin: 0
   Health: 1
-  MediumHealth: 0
-  HardHealth: 0
 --- !u!4 &2103045600 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4394237977155162, guid: ee4c33699f5bebe43802f4b63f840700,

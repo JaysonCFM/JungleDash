@@ -59,6 +59,7 @@ public class LoadShop : MonoBehaviour {
         //when you press spacebar inside of the trigger for the door then it will throw you into the level
         if (selectInput >= 1)
         {
+            PlayerPrefsManager.SetCheckpoint("false");
             LocationToRespawn = player.transform.position;
             if (Shop1)
             {

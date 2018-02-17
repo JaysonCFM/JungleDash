@@ -38,25 +38,30 @@ public class Bomb : MonoBehaviour {
             IsExploded = true;
 			//run explosion animation
             animator.SetTrigger("Explosion");
+
+            //Below 2 statements are for dealing damage
+            if (enemy.GetComponent<Enemy>() && IsExploded)
+            {
+                enemy.GetComponent<Enemy>().TakeDamage(50);
+                IsExploded = false;
+            }
+            if (enemy.GetComponent<Player>() && IsExploded)
+            {
+                PlayerPrefsManager.DealDamage(50);
+                IsExploded = false;
+            }
         }
     }
 
     //enemy bomb collison method
     private void OnTriggerEnter2D(Collider2D collision)
     {
-		//declare enemy damage collider
         enemy = collision.gameObject;
-		//Below 2 statements are for dealing damage
-        if (enemy.GetComponent<Enemy>() && IsExploded)
-        {
-            enemy.GetComponent<Enemy>().TakeDamage(5);
-            IsExploded = false;
-        }
-        else if (enemy.GetComponent<Player>() && IsExploded)
-        {
-            PlayerPrefsManager.DealDamage(1);
-            IsExploded = false;
-        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        enemy = collision.gameObject;
     }
 
     //Destroys the game object and resets timer / explosion boolean after the animation.

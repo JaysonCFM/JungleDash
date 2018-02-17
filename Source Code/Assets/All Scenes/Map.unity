@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 23620503}
   - component: {fileID: 23620502}
   - component: {fileID: 23620501}
+  - component: {fileID: 23620504}
   m_Layer: 5
   m_Name: Exit Game
   m_TagString: Untagged
@@ -201,6 +202,17 @@ MonoBehaviour:
           m_StringArgument: TitleScreen
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 23620504}
+        m_MethodName: QuitName
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &23620502
@@ -244,6 +256,17 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 23620499}
+--- !u!114 &23620504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23620499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c20cfb4c072a546bfc9c4060e577fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &148482579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,7 +1070,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1062320306}
-  - component: {fileID: 1062320305}
   m_Layer: 0
   m_Name: Levels
   m_TagString: Untagged
@@ -1055,23 +1077,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1062320305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1062320304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6abca468fef983d4f9b25dbc3e7bd676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelToLoad: 
-  LevelName: 
-  LevelNumber: 0
-  DefaultX: 0
-  DefaultY: 0
-  DefaultZ: 0
 --- !u!4 &1062320306
 Transform:
   m_ObjectHideFlags: 0

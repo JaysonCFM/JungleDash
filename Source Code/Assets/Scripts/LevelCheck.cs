@@ -36,9 +36,13 @@ public class LevelCheck : MonoBehaviour {
             levelManager.LoadLevel("Cutscene");
         }
 		//condition for the level check object to activate when a new level is unlocked
-        if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)
+        if (PlayerPrefsManager.GetUnlockedLevel() == LevelNumber)
         {
             gameObject.SetActive(true);
+        }
+        else if (PlayerPrefsManager.GetUnlockedLevel() > LevelNumber)
+        {
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(0f, 255f, 0f);
         }
         else
         {
@@ -79,8 +83,11 @@ public class LevelCheck : MonoBehaviour {
     private void LevelAppear()
     {
         //When the player is on top of the level, then it will show the level name and when the level is selected, the game will load it.
-        text.text = LevelName;
-        if (selectInput >= 1)
+        if (PlayerPrefsManager.GetUnlockedLevel() == LevelNumber)
+        {
+            text.text = LevelName;
+        }
+        if (selectInput >= 1 && LevelNumber == PlayerPrefsManager.GetUnlockedLevel())
         {
             if (LevelNumber == PlayerPrefsManager.GetUnlockedLevel())
             {
@@ -93,11 +100,6 @@ public class LevelCheck : MonoBehaviour {
                 {
                     PlayerPrefsManager.SetCheckpoint("true");
                 }
-            }
-            else if (LevelNumber < PlayerPrefsManager.GetUnlockedLevel() || LevelNumber > PlayerPrefsManager.GetUnlockedLevel())
-            {
-                PlayerPrefsManager.SetLocation(DefaultX, DefaultY, DefaultZ);
-                PlayerPrefsManager.SetCheckpoint("true");
             }
 
             CheckpointLevelNumber = LevelNumber;

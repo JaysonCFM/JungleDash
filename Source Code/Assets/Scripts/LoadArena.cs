@@ -32,11 +32,11 @@ public class LoadArena : MonoBehaviour {
 		//when you press spacebar inside of the trigger for the door then it will assign return location and then throw you into the arena
 		if (selectInput >= 1)
 		{
-			if (IsOverCloud && ExitArena.GriffinIsDead == false) {
+            PlayerPrefsManager.SetCheckpoint("false");
+            if (IsOverCloud && ExitArena.GriffinIsDead == false) {
 				//save location outside arena to respawn player at after fight
 				LocationToReturn = player.transform.position;
 				levelManager.LoadLevel ("Level 3 boss scene");
-                PlayerPrefsManager.IsLevel3BossPlayer = true;
 				//declare and assign previous scene to return to when exiting arena
 				Scene Level3 = SceneManager.GetActiveScene ();
 				PreviousScene = Level3.name;
