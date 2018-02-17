@@ -6,46 +6,49 @@ using UnityEngine.SceneManagement;
 
 public class Casino : MonoBehaviour {
 
+	//declare random num
     private Random rand;
     private int RandomNumber;
+	//declare "winning" number and display text
     public int CorrectBet = 7;
     public Text text;
 
     public void PlaceBet()
     {
+		//if player has enough health to wager, bet takes place
         if (PlayerPrefsManager.GetHealth() >= 5)
         {
-        text.text = "";
+        	text.text = "";
+	        //Unity uses Random.Range instead of Random.Next.
+	        RandomNumber = Random.Range(1, 5);
 
-        //Unity uses Random.Range instead of Random.Next.
-        RandomNumber = Random.Range(1, 5);
+	        if (RandomNumber == CorrectBet)
+	        {
+	            //displays won status and rewards player 10 health + the 5 they bet
+	            text.text = "Wow, you won! Want to try again?";
+	            if ((PlayerPrefsManager.GetHealth() + 15) <= 100)
+	            {
+	                PlayerPrefsManager.AddHealth(15);
+	            }
+	            else
+	            {
+	                PlayerPrefsManager.SetHealth(100);
+	            }
+	     	}
+	        else
+	        {
+	            //displays loss status and deducts the 5 health the player bet
+	            text.text = "Better luck next time, but thanks for the health!";
+	            PlayerPrefsManager.DealDamage(5);
+	        }
+		}
+	        else
+	        {
+	            text.text = "Health too low to gamble.";
+	        }
+	}
 
-        if (RandomNumber == CorrectBet)
-        {
-            //displays won status and rewards player 10 health + the 5 they bet
-            text.text = "Wow, you won! Want to try again?";
-            if ((PlayerPrefsManager.GetHealth() + 15) <= 100)
-            {
-                PlayerPrefsManager.AddHealth(15);
-            }
-            else
-            {
-                PlayerPrefsManager.SetHealth(100);
-            }
-        }
-        else
-        {
-            //displays loss status and deducts the 5 health the player bet
-            text.text = "Better luck next time, but thanks for the health!";
-            PlayerPrefsManager.DealDamage(5);
-        }
-    }
-        else
-        {
-            text.text = "Health too low to gamble.";
-        }
-    }
-
+    //Method for leaving casino
     public void LeaveCasino()
     {
         SceneManager.LoadScene(EnterCasino.PreviousLevel);

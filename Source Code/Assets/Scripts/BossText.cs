@@ -19,14 +19,9 @@ public class BossText : MonoBehaviour {
         {
             OnPlatForm();
         }
-
     }
 	//isOnPlatform will be true when player enters and remains on platform
 	private void OnTriggerEnter2D(Collider2D collision)
-	{
-		IsOnPlatform = true;
-	}
-	private void TriggerStay2D(Collider2D collision)
 	{
 		IsOnPlatform = true;
 	}

@@ -11,9 +11,11 @@ public class ExitArena : MonoBehaviour {
 
 	private void Update()
 	{
-		//if griffin is destoryed, player automatically goes back to the main level 3 scene at the x, y, z outside the arena, which they can now pass
+		//if griffin is destoryed, player automatically goes back to the main level 3 
+		//scene at the x, y, z they entered from outside the arena, from which they can now pass
 		if (!Griffin) {
 			GriffinIsDead = true;
+            PlayerPrefsManager.IsLevel3BossPlayer = false;
 			SceneManager.LoadScene("Level 3 main scene");
 		}
 	}

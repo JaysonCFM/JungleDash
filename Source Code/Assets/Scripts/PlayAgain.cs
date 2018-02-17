@@ -6,7 +6,10 @@ public class PlayAgain : MonoBehaviour {
 
     public void PlayGameAgain()
     {
-        PlayerPrefsManager.UnlockLevel(2);
+		//resets level progress (except tutorial) and resets health and lives
+        PlayerPrefsManager.UnlockLevel(3);
 		PlayerPrefsManager.SetHealth(100);
+		PlayerPrefsManager.SetLives(3);
+
     }
 }

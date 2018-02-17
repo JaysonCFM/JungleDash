@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LavaScript : MonoBehaviour {
-
+    //The timer for lava falling
     private float secondsCount;
+    //Determines if the lava should be on or not
     private bool IsActive = true;
+	//declare bos collider for lava
     private BoxCollider2D bc;
+	//declare sprite renderer for lava
     private SpriteRenderer sr;
+    //Maximum amount of time the lava should be on.
     public float TimeToDisable;
 
     // Use this for initialization
-    
     void Start () {
+		//assign collider and sprite displayer
         bc = GetComponent<BoxCollider2D>();
         sr = GetComponent<SpriteRenderer>();
 	}
@@ -29,13 +33,10 @@ public class LavaScript : MonoBehaviour {
 
     }
     
-   
-
-    
-
     public void StartAnimation()
     {
-        //when it is true it will allow the sprirt to be seen and have a box colliiders but when it is false you will not be able to see it and be able to jump through it
+        //when it is true it will allow the sprirt to be seen and have a box colliiders
+		//but when it is false you will not be able to see it and be able to jump through it
         if (IsActive)
         {
             bc.enabled = false;

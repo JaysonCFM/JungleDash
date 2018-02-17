@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour {
 
+	//declare player
     private Player player;
 
     private void Start()
     {
+		//assign player
         player = FindObjectOfType<Player>();
     }
 
+	//save player location upon collision with checkpoint object
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<Player>() && PlayerPrefsManager.GetUnlockedLevel() == LevelCheck.CheckpointLevelNumber)

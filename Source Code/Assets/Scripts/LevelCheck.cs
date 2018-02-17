@@ -4,36 +4,38 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class LevelCheck : MonoBehaviour {
-
+	//declare level manager
     private LevelManager levelManager;
+	//declare name of level being loaded
     public string LevelToLoad;
+	//declare text display
     private Text text;
+	//declare string for level name
     public string LevelName;
+	//declare integer for level index number
     public int LevelNumber;
-
+	//declare integer for checkpoint level
     public static int CheckpointLevelNumber;
-
+	//declare boolean for player hovering on a level in the map
     private bool IsOverLevel;
-
+	//declare input source
     private float selectInput;
-
+	//declare default spawn coordinates
     public float DefaultX, DefaultY, DefaultZ;
 
     // Use this for initialization
     void Start () {
+		//assign level manager and text display
         levelManager = FindObjectOfType<LevelManager>();
         text = FindObjectOfType<Text>();
+		//initialize text display's string to display as nothing
         text.text = "";
-
-//		DefaultX = PlayerPrefs.GetFloat (PLAYER_X); 
-//		DefaultY = PlayerPrefs.GetFloat (PLAYER_Y);
-//		DefaultZ = PlayerPrefs.GetFloat(PLAYER_Z);
-
-        if (PlayerPrefsManager.GetUnlockedLevel() == 26)
+		//condition for the cutscene game over screen to load when player unlocks final level index
+        if (PlayerPrefsManager.GetUnlockedLevel() == 4)
         {
-            levelManager.LoadLevel("Win Screen");
+            levelManager.LoadLevel("Cutscene");
         }
-
+		//condition for the level check object to activate when a new level is unlocked
         if (PlayerPrefsManager.GetUnlockedLevel() >= LevelNumber)
         {
             gameObject.SetActive(true);
@@ -48,19 +50,20 @@ public class LevelCheck : MonoBehaviour {
 
     private void Update()
     {
+		//assign input source
         selectInput = Input.GetAxisRaw("Submit");
-
+		//have level name appear when player is over a level on the map
         if (IsOverLevel)
         {
             LevelAppear();
         }
     }
 
+	//upon collision with level selection object the isOverLevel boolean becomes true
     private void OnTriggerEnter2D(Collider2D collision)
     {
         IsOverLevel = true;
     }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         IsOverLevel = true;

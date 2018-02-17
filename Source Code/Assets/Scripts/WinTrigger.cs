@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class WinTrigger : MonoBehaviour {
 
+	//declare level manager
     private LevelManager levelManager;
-
+	//declare integer for next level index
     public int LevelToUnlock;
 
 	// Use this for initialization
@@ -23,10 +24,9 @@ public class WinTrigger : MonoBehaviour {
         //Checks to make sure only a player can win.
         if (player.GetComponent<Player>())
         {
-            //If the player DID collide, then it unlocks the next level, resets their health to 100, and takes them to the map.
+            //If the player DID collide, then it unlocks the next level and takes them to the map.
             PlayerPrefsManager.UnlockLevel(LevelToUnlock);
-            PlayerPrefsManager.SetHealth(100);
-            PlayerPrefsManager.SetLocation(0, 0, 0);
+			PlayerPrefsManager.SetLocation(0, 0, 0);
             PlayerPrefsManager.SetCheckpoint("false");
             levelManager.LoadLevel("Map");
         }

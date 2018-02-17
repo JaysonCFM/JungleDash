@@ -4,18 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class OptionsController : MonoBehaviour {
-
+	//declare ui sliders for sound vol and game difficulty
     public Slider volumeSlider, difficultySlider;
-
-    public LevelManager levelManager;
-
+	//declare level and music managers
+	public LevelManager levelManager;
     private MusicManager musicManager;
-
+	//declare text display for difficulty selection
 	public Text difficultySelected;
 
 
 	// Use this for initialization
 	void Start () {
+		//assignments (see declarations above)
         musicManager = FindObjectOfType<MusicManager>();
 		volumeSlider.value = PlayerPrefsManager.GetMasterVolume();
 		difficultySlider.value = PlayerPrefsManager.GetDifficulty();
@@ -29,14 +29,17 @@ public class OptionsController : MonoBehaviour {
 		//update the text of the selected difficulty (difficulty name and color)
 		if (difficultySlider.value == 0) {
 			difficultySelected.text = "Easy";
+			//green text
 			difficultySelected.color = new Color(76.0f / 255.0f, 175.0f / 255.0f, 80.0f / 255.0f);
 		}
 		else if (difficultySlider.value == 1) {
 			difficultySelected.text = "Medium";
+			//yellow text
 			difficultySelected.color = new Color(255.0f / 255.0f, 235.0f / 255.0f, 59.0f / 255.0f);
 		}
 		else if (difficultySlider.value == 2){
 			difficultySelected.text = "Hard";
+			//red text
 			difficultySelected.color = new Color(201.0f / 255.0f, 0.0f / 255.0f, 0.0f / 255.0f);
 		}
 	}

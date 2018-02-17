@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadArena : MonoBehaviour {
 
-	//declare level manager, platform collison boolean, arena scene boolean, vector for location to return post-fight, player, input for spacebar, and prev. level name string
+	//declare level manager, platform collison boolean, arena scene boolean, 
+	//vector for location to return post-fight, 
+	//player, input for spacebar, and prev. level name string
     public LevelManager levelManager;
     private bool IsOverCloud;
     public bool Arena;
@@ -34,6 +36,7 @@ public class LoadArena : MonoBehaviour {
 				//save location outside arena to respawn player at after fight
 				LocationToReturn = player.transform.position;
 				levelManager.LoadLevel ("Level 3 boss scene");
+                PlayerPrefsManager.IsLevel3BossPlayer = true;
 				//declare and assign previous scene to return to when exiting arena
 				Scene Level3 = SceneManager.GetActiveScene ();
 				PreviousScene = Level3.name;

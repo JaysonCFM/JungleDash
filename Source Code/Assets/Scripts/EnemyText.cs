@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class EnemyText : MonoBehaviour {
-	//is the actually display of text
+	//is the actual display of text
 	public string AliveText, DeathText;
 	//will access it onthe game canvas
 	public Text text;
 	//Will only display the text when the Player in on the Platoform
 	private bool IsOnPlatform;
 	//enemy game object
-	public GameObject Spike;
+	public GameObject Enemy;
 
 	//if the player is on the platform then OnPlatform will be acessed which will draw the string 
 	void Update () {
@@ -36,13 +36,15 @@ public class EnemyText : MonoBehaviour {
 		IsOnPlatform = false;
 		text.text = "";
 	}
-	//will display the text to the canvas screen
+	//will display the texts to the canvas screen
 	private void OnPlatForm()
 	{
-		if (Spike)
+		//text for enemy being alive
+		if (Enemy)
 		{
 			text.text = AliveText;
 		}
+		//text for enemy being dead
 		else
 		{
 			text.text = DeathText;

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraZoomOut : MonoBehaviour {
 
+	//declare camera and box collision boolean
     public Camera mainCamera;
-
     private bool IsInBox;
 
     private void LateUpdate()
@@ -16,6 +16,15 @@ public class CameraZoomOut : MonoBehaviour {
             if (mainCamera.orthographicSize > 5)
             {
                 mainCamera.orthographicSize -= 0.25f;
+            }
+        }
+
+        //If in the box, then the camera zooms in
+        if (IsInBox)
+        {
+            if (mainCamera.orthographicSize < 10)
+            {
+                mainCamera.orthographicSize += 0.25f;
             }
         }
     }
@@ -33,24 +42,13 @@ public class CameraZoomOut : MonoBehaviour {
             IsInBox = true;
         }
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<Player>())
-        {
-            if (mainCamera.orthographicSize < 10)
-            {
-                mainCamera.orthographicSize += 0.25f;
-            }
-
-            IsInBox = true;
-        }
-    }
+		
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<Player>())
         {
+			//return to previous default viewport
             IsInBox = false;
         }
     }

@@ -4,51 +4,59 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-
+	//declare player
     private Player player;
+	//declare weapon animator
     private Animator animator;
+	//declare weapon selection boolean array
     public static bool[] Weapons = new bool[4];
+	//declare game objects for each weapon
     public GameObject Stick, Stick2, Gun, NoWeapon, Bullet;
     public int DamageToTake, DartSpeed;
-
+	//decalre max timer (reset point) variable
     public float maxTimer = 0.5f;
-
+	//decalre timer variable
     private float timer;
-
+	//decalre isArmed boolean 
     private bool IsArmed;
-
+	//decalre weapon input source variable
     private float weaponInput;
 
     // Use this for initialization
     void Start()
     {
+		//assign player and weapon animator
         player = FindObjectOfType<Player>();
         animator = GetComponent<Animator>();
+		//call selected weapon method for initialization
         SelectedWeapon();
     }
 
     // Update is called once per frame
     void Update()
     {
+		//assigns weapon input source
         weaponInput = Input.GetAxisRaw("Weapon");
-
+		//attack input
         if (weaponInput >= 1)
         {
             Attack();
         }
-
+		//timer between attacks
         timer += Time.deltaTime;
 
         SelectedWeapon();
 
         //Hides from player the other weapons depending on current weapon
-        if (Weapons[0])
+        //stick 1
+		if (Weapons[0])
         {
             Stick.SetActive(true);
             Stick2.SetActive(false);
             Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
+		//stick 2
         else if (Weapons[1])
         {
             Stick.SetActive(false);
@@ -56,6 +64,7 @@ public class Weapon : MonoBehaviour
             Gun.SetActive(false);
             NoWeapon.SetActive(false);
         }
+		//bamboo blow gun
         else if (Weapons[2])
         {
             Stick.SetActive(false);
@@ -63,6 +72,7 @@ public class Weapon : MonoBehaviour
             Gun.SetActive(true);
             NoWeapon.SetActive(false);
 
+			//flips the gun sprite with the player when they turn around
             if (player.GetComponent<SpriteRenderer>().flipX == true)
             {
                 gameObject.transform.rotation = Quaternion.Euler(0, 0, 222);
@@ -71,7 +81,7 @@ public class Weapon : MonoBehaviour
             {
                 gameObject.transform.rotation = Quaternion.Euler(0, 0, 45);
             }
-
+			//increases dartspeed and lowers timer between dart discharge when active
             if (PlayerPrefsManager.ReturnRapidFire() == "true")
             {
                 DartSpeed = 15;
@@ -83,6 +93,7 @@ public class Weapon : MonoBehaviour
                 maxTimer = 0.5f;
             }
         }
+		//no weapon
         else if (Weapons[3])
         {
             Stick.SetActive(false);
@@ -127,7 +138,7 @@ public class Weapon : MonoBehaviour
 
     private void Attack()
     {
-        //Specific attacks for each weapon, this is for the stick.
+        //Specific attacks for each weapon, this is for the sticks.
         if (Weapons[0] || Weapons[1])
         {
             if (player.GetComponent<SpriteRenderer>().flipX)
@@ -160,28 +171,23 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    //Sets boolean for the animations
+    //Sets boolean for the weapon animations
     private void Armed()
     {
         IsArmed = true;
     }
-
     private void UnArmed()
     {
         IsArmed = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        EnemyHurt(collision);
-    }
-
+	//hurts enemy upon collision with weapon
     private void OnTriggerStay2D(Collider2D collision)
     {
         EnemyHurt(collision);
     }
 
-    //Takes damage to enemy
+    //Deals damage to enemy
     private void EnemyHurt(Collider2D collision)
     {
         GameObject Collision = collision.gameObject;

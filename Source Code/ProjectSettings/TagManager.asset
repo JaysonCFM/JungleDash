@@ -8,6 +8,7 @@ TagManager:
   - Map Pin
   - Text
   - Ladder
+  - Griffin
   layers:
   - Default
   - TransparentFX

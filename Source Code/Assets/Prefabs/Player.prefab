@@ -652,6 +652,7 @@ MonoBehaviour:
   Bullet: {fileID: 1486109566637976}
   DamageToTake: 4
   DartSpeed: 0
+  maxTimer: 0.5
 --- !u!114 &114182001033527444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -706,6 +707,7 @@ MonoBehaviour:
   Bullet: {fileID: 1304524699584048, guid: 669a14fe5f1ac8d49bba87babb79dada, type: 2}
   DamageToTake: 0
   DartSpeed: 10
+  maxTimer: 0.5
 --- !u!114 &114785994227008244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -720,6 +722,7 @@ MonoBehaviour:
   jumpPower: 350
   moveSpeed: 5
   IsMapCharacter: 0
+  IsLevel3BossPlayer: 0
   sprintSpeed: 8
   Sounds:
   - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
@@ -742,6 +745,7 @@ MonoBehaviour:
   Bullet: {fileID: 1486109566637976}
   DamageToTake: 6
   DartSpeed: 0
+  maxTimer: 0.5
 --- !u!114 &114866821137032394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -760,6 +764,7 @@ MonoBehaviour:
   Bullet: {fileID: 1486109566637976}
   DamageToTake: 0
   DartSpeed: 0
+  maxTimer: 0.5
 --- !u!124 &124544226617987300
 Behaviour:
   m_ObjectHideFlags: 1
@@ -1026,7 +1031,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

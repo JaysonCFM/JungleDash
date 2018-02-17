@@ -191,14 +191,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 880344493}
-        m_MethodName: QuitRequest
-        m_Mode: 1
+        m_MethodName: LoadLevel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: TitleScreen
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -254,7 +254,6 @@ GameObject:
   - component: {fileID: 148482580}
   - component: {fileID: 148482582}
   - component: {fileID: 148482581}
-  - component: {fileID: 148482583}
   m_Layer: 5
   m_Name: LevelText
   m_TagString: Text
@@ -319,17 +318,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148482579}
---- !u!114 &148482583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 148482579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65ed30270f3d14dee87e92b185e137b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &220461106
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,8 +400,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 220461106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 766, y: 267.5, z: 0}
-  m_LocalScale: {x: 1.3067293, y: 1.3067293, z: 1.3067293}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 2.078461, y: 2.078461, z: 2.078461}
   m_Children:
   - {fileID: 148482580}
   - {fileID: 390124714}
@@ -611,7 +599,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546453047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 766, y: 267.5, z: 0}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1327897222}
@@ -895,8 +883,8 @@ MonoBehaviour:
   LevelToLoad: Level 3 main scene
   LevelName: '3: Skyward Bound'
   LevelNumber: 3
-  DefaultX: -11858.81
-  DefaultY: 169.84
+  DefaultX: -11867.98
+  DefaultY: 168.8
   DefaultZ: 5.543741
 --- !u!61 &861535055
 BoxCollider2D:
@@ -1665,7 +1653,6 @@ MonoBehaviour:
   moveSpeed: 5
   IsMapCharacter: 1
   IsLevel3BossPlayer: 0
-  sprintSpeed: 5
   Sounds:
   - {fileID: 8300000, guid: a77c19d3eb804ed4e8e95b652f19092a, type: 3}
   - {fileID: 0}
@@ -1826,7 +1813,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1697143292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.000015258789, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 916506629}

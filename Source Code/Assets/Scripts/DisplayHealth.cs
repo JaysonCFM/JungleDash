@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DisplayHealth : MonoBehaviour {
 
+	//declare text and integer for health value
     private Text text;
     private int health;
 
@@ -29,14 +30,17 @@ public class DisplayHealth : MonoBehaviour {
         //Color gradient for health text depending on health level
         if (health >= 67)
         {
+			//green
             text.color = new Color(76.0f / 255.0f, 175.0f / 255.0f, 80.0f / 255.0f);
         }
         else if (health < 67 && health >= 34)
         {
+			//yellow
             text.color = new Color(255.0f / 255.0f, 235.0f / 255.0f, 59.0f / 255.0f);
         }
         else
         {
+			//red
             text.color = new Color(201.0f / 255.0f, 0.0f / 255.0f, 0.0f / 255.0f);
         }
     }

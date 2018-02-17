@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
+	//float for index of next level to auto load after current
     public float autoLoadNextLevelAfter;
 
     //Allows for automatic scene timing like the splashscreen or a cutscene.
@@ -23,6 +24,12 @@ public class LevelManager : MonoBehaviour {
     //Called on by other scripts to load another scene.
     public void LoadLevel(string name)
     {
+        //If the game was paused, then the game will resume time and music after loading.
+        if (Time.timeScale == 0)
+        {
+            Time.timeScale = 1;
+            AudioListener.volume = 1;
+        }
         Debug.Log("Level load requested for: " + name);
         SceneManager.LoadScene(name);
     }

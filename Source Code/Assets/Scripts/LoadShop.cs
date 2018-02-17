@@ -5,15 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LoadShop : MonoBehaviour {
 
-
+	//declare level manager
     private LevelManager levelManager;
+	//declare boolean for player being in front of the shop entrance door
     private bool IsOverDoor;
-    public bool Shop1, Shop2, Shop3;
+	//declare booleans for which shop they're in (level 1 or 2)
+    public bool Shop1, Shop2;
+	//declare vector for location to return to after exiting shop
     public static Vector3 LocationToRespawn;
+	//declare player
     private Player player;
-
+	//declare string for name of previous level prior to shop
     public static string PreviousLevel;
-
+	//declare input source
     private float selectInput;
 
 
@@ -28,22 +32,21 @@ public class LoadShop : MonoBehaviour {
     {
 		//checks for spacebar input
         selectInput = Input.GetAxisRaw("Submit");
-		//loads shop if spacebar is pressed
+		//loads shop if spacebar is pressed while in front of entrance
         if (IsOverDoor)
         {
             EnterShop();
         }
     }
 
+	//when you hit the trigger on the door, then it sets IsOverDoor true
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //when you hit the trigger on the door, then it sets IsOverDoor true
         IsOverDoor = true;
     }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
-        IsOverDoor = true;
+		IsOverDoor = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
         //prevents from loading when you walk away from door 
@@ -65,14 +68,9 @@ public class LoadShop : MonoBehaviour {
             {
                 levelManager.LoadLevel("Shop 2");
             }
-            if (Shop3)
-            {
-                levelManager.LoadLevel("Shop 3");
-            }
 		//declare and assign previous scene to return to when exiting shop
         Scene ShopName = SceneManager.GetActiveScene();
         PreviousLevel = ShopName.name;
-
         }
     }
 }

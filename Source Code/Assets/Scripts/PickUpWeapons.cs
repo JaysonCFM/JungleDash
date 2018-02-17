@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpWeapons : MonoBehaviour {
 
+	//declare weapon name string an boolean for archeologist stick weapon vendor game object (doesn't get destoryed like usual)
     public string WeaponName;
     public bool IsArcheologist;
 

@@ -11,9 +11,6 @@ public class TextAnnouncer : MonoBehaviour {
     //Will only display the text when the Player in on the Platoform
     private bool IsOnPlatform;
 
-
-
-    
     //if the player is on the platform then OnPlatform will be acessed which will draw the string 
     void Update () {
         if (IsOnPlatform)

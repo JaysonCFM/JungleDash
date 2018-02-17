@@ -161,6 +161,7 @@ MonoBehaviour:
   jumpPower: 0
   moveSpeed: 0
   IsMapCharacter: 0
+  IsLevel3BossPlayer: 0
   sprintSpeed: 0
   Sounds:
   - {fileID: 0}
@@ -579,6 +580,10 @@ Prefab:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 70524432}
+    - target: {fileID: 1994105472249188, guid: b113d3029d131164b9410f6e5102de0b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b113d3029d131164b9410f6e5102de0b, type: 2}
   m_IsPrefabParent: 0
@@ -955,7 +960,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547675526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 383.11523, y: -241.65602, z: 0}
+  m_LocalPosition: {x: 382.9702, y: -241.73763, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1888158865}
@@ -1350,8 +1355,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1888158864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 177, y: 99.5, z: 0}
-  m_LocalScale: {x: 0.38309595, y: 0.38309595, z: 0.38309595}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 2.078461, y: 2.078461, z: 2.078461}
   m_Children:
   - {fileID: 1925745448}
   - {fileID: 70524432}
@@ -1452,7 +1457,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1925745447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 353.22522, y: 229.58604, z: 0}
+  m_LocalPosition: {x: 353.0802, y: 229.66762, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1888158865}

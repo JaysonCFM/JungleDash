@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Dart : MonoBehaviour {
 
+	//declare dart damage level (10 health per dart)
     public int DamageToTake = 10;
 
     //When the dart hits something like a wall or enemy, it will take appropriate action.

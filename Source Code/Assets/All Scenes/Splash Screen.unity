@@ -282,7 +282,7 @@ Prefab:
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.size
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4901984512673978, guid: 63ae7edebe314e04eba888ac1900e2a8, type: 2}
       propertyPath: m_LocalPosition.x
@@ -360,17 +360,17 @@ Prefab:
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[9]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 22cbd18acf4f293469c6920def9a5182, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[10]
       value: 
-      objectReference: {fileID: 8300000, guid: c0bfd31614f5145678601b89483a3eeb, type: 3}
+      objectReference: {fileID: 8300000, guid: d38dd883119564335aca558a2fcfda04, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[11]
       value: 
-      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+      objectReference: {fileID: 8300000, guid: c0bfd31614f5145678601b89483a3eeb, type: 3}
     - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[12]
@@ -380,7 +380,12 @@ Prefab:
         type: 2}
       propertyPath: levelMusicChangeArray.Array.data[13]
       value: 
-      objectReference: {fileID: 8300000, guid: 8e087fd94c5a2e54bbfe4e0ce493290f, type: 3}
+      objectReference: {fileID: 8300000, guid: d16e69e535950a341b8b8c2a5a71b514, type: 3}
+    - target: {fileID: 114622565808620308, guid: 63ae7edebe314e04eba888ac1900e2a8,
+        type: 2}
+      propertyPath: levelMusicChangeArray.Array.data[14]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 63ae7edebe314e04eba888ac1900e2a8, type: 2}
   m_IsPrefabParent: 0
@@ -537,7 +542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: And Moonlimited presents...
+  m_Text: And Moonlimited Studios presents...
 --- !u!222 &386071058
 CanvasRenderer:
   m_ObjectHideFlags: 0

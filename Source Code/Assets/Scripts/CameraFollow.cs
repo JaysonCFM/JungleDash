@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
+	//declare player object and camera viewport offset vector
     public GameObject player;
-
     private Vector3 offset;
 
 	// Use this for initialization
